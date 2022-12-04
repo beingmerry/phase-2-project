@@ -3,13 +3,14 @@ phase 2 project w/ 0 connect to original Flatiron page
 
 # Ben
 
-Hi Guy! Thought it might be fun to leave notes and tasks in the readme, maybe not the most efficient, but a good starting place for introducing ourselves.
+Posted 2022-12-04 17:56 ET
+👋 Hi Guy! Thought it might be fun to leave notes and tasks in the readme.md, maybe not the most efficient, but a good starting place for introducing ourselves and working in the same repo I think... I'm looking at using the discussion feature also in GitHub but we should just chat tomorrow am about how we want to communicate.
 
-My name is Ben Merryman, I currently live in Phoenixville, Pennsylvania about 30 minutes outside of Philadelphia with my girlfriend Jamie and my dog Obi (1 year old, half Great Pyrennees - half mutt).  
+🔔 To introduce myself, my name is Ben Merryman, I currently live in Phoenixville, Pennsylvania about 30 minutes outside of Philadelphia with my girlfriend Jamie and my dog Obi (1 year old, half Great Pyrennees - half mutt).  
 
-I'm 34, love to sail and snowbaord, and have been really enjoying learning to program so far!
+⛵ I'm 34, love to sail and snowbaord, and have been really enjoying learning to program so far!
 
-Loking forward to an awesome project with you guys.  Prepare for the emoji's... 💥🏗️🎯
+👀 Looking forward to an awesome project with you guys.  Prepare for the emoji's... 💥🏗️🎯
 
 # Kamran
 
