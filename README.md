@@ -5,7 +5,7 @@ phase 2 project w/ 0 connect to original Flatiron page
 
 Posted 2022-12-04 17:56 ET
 
-👋 Hi Guy! Thought it might be fun to leave notes and tasks in the readme.md, maybe not the most efficient, but a good starting place for introducing ourselves and working in the same repo I think... I'm looking at using the discussion feature also in GitHub but we should just chat tomorrow am about how we want to communicate.
+👋 Hi Guy! I thought it might be fun to leave notes and tasks in the readme.md, maybe not the most efficient, but a good starting place for introducing ourselves and working in the same repo I think... I'm looking at using the discussion feature also in GitHub but we should just chat tomorrow about how we want to communicate.
 
 ![Ben Merryman and Jamie Prouse in Portugal](https://github.com/beingmerry/ben-merryman/blob/main/images/1_BenAndJamie_Portugal_2022.png)
 
