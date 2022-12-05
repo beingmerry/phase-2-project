@@ -21,10 +21,12 @@ I like to play video games
 
 # Kevin
 
-typing in things to push
-skydiving
-hiking
-coding
+- typing in things to push
+- skydiving
+- hiking
+- coding
+- biking
+- suggesting we should find an edible mushroom api 
 
 🎯 I usually use the target emoji to indicate ToDo's for myself... feel free to introduce yourself here if you want to!
 
