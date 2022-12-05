@@ -1,15 +1,11 @@
 # phase-2-project
 phase 2 project w/ 0 connect to original Flatiron page
 
-Test Merge
-
 # Ben
 
 Posted 2022-12-04 17:56 ET
 
 👋 Hi all! I thought it might be fun to leave notes and tasks in the readme.md, maybe not the most efficient, but a good starting place for introducing ourselves and working in the same repo I think... I'm looking at using the discussion feature also in GitHub but we should just chat tomorrow about how we want to communicate.
-
-![Ben Merryman and Jamie Prouse in Portugal](https://github.com/beingmerry/ben-merryman/blob/main/images/1_BenAndJamie_Portugal_2022.png)
 
 🔔 To introduce myself, my name is Ben Merryman, I currently live in Phoenixville, Pennsylvania about 30 minutes outside of Philadelphia with my girlfriend Jamie and my dog Obi (1 year old, half Great Pyrennees - half mutt).  
 
