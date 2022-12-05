@@ -19,6 +19,8 @@ Posted 2022-12-04 17:56 ET
 
 🎯 I usually use the target emoji to indicate ToDo's for myself... feel free to introduce yourself here if you want to!
 
+I like to play video games
+
 # Kevin
 
 🎯 I usually use the target emoji to indicate ToDo's for myself... feel free to introduce yourself here if you want to!
