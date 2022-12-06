@@ -1,15 +1,19 @@
 # phase-2-project
 phase 2 project w/ 0 connect to original Flatiron page
 
+# 2022-12-06, Tuesday, 3 days till DESTRUCTION
+
+🎯 Morning Team! Let's get started on our Zoo World project (or whatever we decide to build, Key goal, IDEAS)
+
 # Ben
+
+Here is a change in a different area to test merging! 2022-12-06, 09:33 ET
 
 Posted 2022-12-04 17:56 ET
 
 👋 Hi all! I thought it might be fun to leave notes and tasks in the readme.md, maybe not the most efficient, but a good starting place for introducing ourselves and working in the same repo I think... I'm looking at using the discussion feature also in GitHub but we should just chat tomorrow about how we want to communicate.
 
-![Ben Merryman and Jamie Prouse in Portugal](https://github.com/beingmerry/ben-merryman/blob/main/images/1_BenAndJamie_Portugal_2022.png)
-
-🔔 To introduce myself, my name is Ben Merryman, I currently live in Phoenixville, Pennsylvania about 30 minutes outside of Philadelphia with my girlfriend Jamie and my dog Obi (1 year old, half Great Pyrennees - half mutt).  
+🔔 To introduce myself, my name is Ben Merryman, I currently live in Phoenixville, Pennsylvania about 30 minutes outside of Philadelphia with my girlfriend Jamie and my dog Obi (1 year old, half Great Pyrennees - half mutt).
 
 ⛵ I'm 34, love to sail and snowbaord, and have been really enjoying learning to program so far!
 
@@ -24,6 +28,13 @@ I like to snowboard but I can't this winter due to an injury :(
   hello
 
 # Kevin
+
+- typing in things to push
+- skydiving
+- hiking
+- coding
+- biking
+- suggesting we should find an edible mushroom api 
 
 🎯 I usually use the target emoji to indicate ToDo's for myself... feel free to introduce yourself here if you want to!
 

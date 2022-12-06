@@ -1,0 +1,31 @@
+{
+  "zoos": [
+    {
+      "id": 1,
+      "name": "San Fransisco Zoo",
+      "habitat": "Grassland"
+    },
+    {
+      "id": 2,
+      "name": "Berlin Zoo",
+      "habitat": "Savannah"
+    },
+    {
+      "id": 3,
+      "name": "Sao Paulo Zoo",
+      "habitat": "Rain Forest"
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name": "Tiger",
+      "details": "super scary"
+    },
+    {
+      "id": 2,
+      "name": "Winnie",
+      "details": "the pooh bear"
+    }
+  ]
+}
