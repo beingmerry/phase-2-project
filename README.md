@@ -3,6 +3,8 @@ phase 2 project w/ 0 connect to original Flatiron page
 
 # Ben
 
+Here is a change in a different area to test merging! 2022-12-06, 09:33 ET
+
 Posted 2022-12-04 17:56 ET
 
 👋 Hi all! I thought it might be fun to leave notes and tasks in the readme.md, maybe not the most efficient, but a good starting place for introducing ourselves and working in the same repo I think... I'm looking at using the discussion feature also in GitHub but we should just chat tomorrow about how we want to communicate.
