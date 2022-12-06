@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Header from './components/Header'
+import { Routes, Route } from 'react-router-dom'
 
-function App() {
+const App = () => {
+  <Routes>
+    {/* This is React Router 6, NOT 5 from class, see https://reactrouter.com/en/main/components/routes */}
+    {/* This is an experiment but not too different so I think it will be fine */}
+    <Route path='/' element={<Header />} />
+  </Routes>
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Header />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
