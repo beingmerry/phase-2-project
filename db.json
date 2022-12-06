@@ -1,0 +1,39 @@
+{
+  "zoos": [
+    {
+      "id": 1,
+      "name": "San Fransisco Zoo",
+      "habitat": "Grassland"
+    },
+    {
+      "id": 2,
+      "name": "Berlin Zoo",
+      "habitat": "Savannah"
+    },
+    {
+      "id": 3,
+      "name": "Sao Paulo Zoo",
+      "habitat": "Rain Forest"
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name": "Tiger",
+      "details": "super scary",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Walking_tiger_female.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Winnie",
+      "details": "the pooh bear",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Winniethepooh.png"
+    },
+    {
+      "name": "Elephant",
+      "details": "Big boi, long nose",
+      "id": 3,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg"
+    }
+  ]
+}
