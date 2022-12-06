@@ -9,9 +9,10 @@ const AnimalList = ({ animals }) => {
 
   return (
     <div>
-      {console.table(animals)}
       <h2>Animals</h2>
+      <ol>
       {animalCards}
+      </ol>
     </div>
   )
 }
