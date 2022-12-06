@@ -20,12 +20,20 @@
     {
       "id": 1,
       "name": "Tiger",
-      "details": "super scary"
+      "details": "super scary",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Walking_tiger_female.jpg"
     },
     {
       "id": 2,
       "name": "Winnie",
-      "details": "the pooh bear"
+      "details": "the pooh bear",
+      "image": "https://static.wikia.nocookie.net/disney/images/0/03/Profile_-_Winnie_the_Pooh.png/revision/latest/scale-to-width-down/1000?cb=20200510194837"
+    },
+    {
+      "name": "Elephant",
+      "details": "Big boi, long nose",
+      "id": 3,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg"
     }
   ]
 }
