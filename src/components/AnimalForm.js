@@ -9,22 +9,22 @@ const AnimalForm = props => {
     <div className='animal-form'>
       <h2>Add Animal to Zoo</h2>
       <form>
-        <label for='animals' class='form-label'>
+        <label htmlFor='animals' className='form-label'>
           New Animal
         </label>
         <input
           type='text'
           name='name'
           placeholder='Animal Name'
-          class='form-control-sm'
+          className='form-control-sm'
         />
         <input
           type='text'
           name='image'
           placeholder='Image URL'
-          class='form-control-sm'
+          className='form-control-sm'
         />
-        <label for='zoo' class='zoo-label'>
+        <label htmlFor='zoo' className='zoo-label'>
           Select Zoo
         </label>
         <select id='zoos' name='zoos'>
