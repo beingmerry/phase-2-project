@@ -3,6 +3,7 @@ import React from 'react'
 const AnimalForm = props => {
   // 🎯🏗️ The select options  need to be dynamically
   // generated based off available Zoos
+  // fetch request go to ->> local json animals db, ADD to with POST, property isInZoo: false
   // 🌟 IDEA maybe have a capacity to each Zoo? refuse to add if full
 
   return (
