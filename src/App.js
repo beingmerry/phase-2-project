@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header'
 import { Routes, Route } from 'react-router-dom'
 import AnimalList from './components/AnimalList.js'
+import AnimalForm from './components/AnimalForm.js'
 import ZooList from './components/ZooList.js'
 import { useState, useEffect } from 'react'
 
@@ -50,6 +51,7 @@ const App = () => {
       )}
       <ZooList zoos={zoos} speciesList={speciesList} />
       <AnimalList animals={animals} />
+      <AnimalForm />
       
     </div>
   )
