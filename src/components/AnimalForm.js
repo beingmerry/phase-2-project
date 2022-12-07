@@ -1,10 +1,10 @@
 import React from 'react'
 
-function AnimalForm () {
+const AnimalForm = props => {
   // 🎯🏗️ The select options  need to be dynamically
   // generated based off available Zoos
   // 🌟 IDEA maybe have a capacity to each Zoo? refuse to add if full
-  
+
   return (
     <div className='animal-form'>
       <h2>Add Animal to Zoo</h2>
@@ -38,4 +38,4 @@ function AnimalForm () {
   )
 }
 
-export default AnimalForm()
+export default AnimalForm
