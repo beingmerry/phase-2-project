@@ -12,7 +12,7 @@ const ZooList = ({ zoos }) => {
     <div>
       <h2>Zoos</h2>
       <Row xs={1} md={2} className='g-4'>
-        {ZooCards.map(zooCard => zooCard)}
+        {ZooCards}
       </Row>
     </div>
   )
