@@ -17,3 +17,14 @@ const AnimalList = ({ animals }) => {
   )
 }
 export default AnimalList
+//at this layer set state
+//inZoo = false
+//[inZoo, setInZ00] = useState(false)
+//if false its only in animal list
+//if true its in the zoo
+//set the state of the animal array to match wether the animal is in the zoo or not
+//if in zoo we can pass props for less details
+//if in zoo we can then add a button to remove
+//if in animal list we have a button to send to zoo
+//in in animal list there is more details
+////maybe a hover or click to expand those details
