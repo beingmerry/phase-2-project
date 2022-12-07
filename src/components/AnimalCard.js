@@ -6,7 +6,7 @@ const AnimalCard = ({ animal }) => {
   return (
     <li>
       <h3>{id}. {name}</h3>
-      <img src={image} alt={name} style={{ width: 200 }} />
+      <img src={image} alt={name} style={{ width: 300 }} />
       <p>Details | {details}</p>
     </li>
   )
