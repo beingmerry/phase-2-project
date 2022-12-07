@@ -1,22 +1,25 @@
 import React from 'react'
 import AnimalList from './AnimalList'
+import { Card, Col } from 'react-bootstrap'
 // 🎯 ToDo build out the animals in the zoo logic
 
 const ZooCard = ({ zoo }) => {
   const { image, name, description, id, habitat, animals } = zoo
-  
+
   // debugger
   return (
-    <li>
-      <h3>
-        {id}. {name}
-      </h3>
-      <h4>Habitat | {habitat}</h4>
-      <img src={image} alt={name} style={{ width: 400 }} />
-      <p>Description | {description}</p>
-      <h3>List of Animals to go here</h3>
-      <AnimalList animals={animals} />
-    </li>
+    <Col>
+      <Card id={id}>
+        <Card.Img src={image} alt={name} style={{ width: 'auto' }} />
+        <Card.Body>
+          <Card.Title>{name} | {habitat}</Card.Title>
+          <Card.Text>Description | {description}</Card.Text>
+          <Card.Body>
+            <AnimalList animals={animals} />
+          </Card.Body>
+        </Card.Body>
+      </Card>
+    </Col>
   )
 }
 export default ZooCard
