@@ -1,56 +1,57 @@
 import React, { useState } from 'react'
-import Button from 'react-bootstrap/Button'
-import Card from 'react-bootstrap/Card'
+import {Button, Card, Form} from 'react-bootstrap'
 
 
 // Need to bring Zoos to here as prop to build the SELECTOR of the ZOO to send to
-const AnimalCard = ({ animal }) => {
-  //  debugger // ⚠️ this card seems to be getting called 2x as many as needed
-  const { image, name, details, id, isInZoo } = animal;
-  const [inZoo, setInZoo] = useState(isInZoo);
-
+const AnimalCard = ({ animal, zoos }) => {
+  const { image, name, details, id, isInZoo } = animal
+  const [inZoo, setInZoo] = useState(isInZoo)
+  // 🎯 Identify the current ZOO that the ANIMAL will be sent to
+  const [currentDestinationId, setCurrentDestinationId] = useState(0)
+  const handleCurrentDestinationId = (event) => {
+    // 🎯 Take in the event of selecting the ZOO and set it to the NEW ZOO ID
+    console.log(currentDestinationId)
+    const destinationId = parseInt(event.target.value)
+    setCurrentDestinationId(destinationId)
+  }
+    
   const handleInZoo = () => {
     if (!inZoo) {
-      fetch(`http://localhost:4000/animals/${id}`, {
-        method: "DELETE",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-        .then((res) => res.json())
+      // 🎯🎯 Build out TRANSFER Logic (Delete + PATCH) from animal list
+      // 🎯 DELETE the ANIMAL from the JSON server object that it is in if it's not in a ZOO
+      // https://jasonwatmore.com/post/2021/09/21/fetch-http-delete-request-examples
+      fetch(`http://localhost:4000/animals/${id}`, { method: 'DELETE', })
         .then(() => {
-          // fetch(`http://localhost:4000/zoos/${currentDestinationId}/animals`, {
-          //   method: 'PATCH',
-          //   headers: {
-          //     'Content-Type': 'application/json'
-          //   },
-          //   body: JSON.stringify({...animal, inZoo: true })
-          // })
-          //  .then(res => res.json())
-          //  .then(() => {
-          //     setInZoo(false)
-          //   })
+          // 🎯 If delete is successful, set the inZoo to true
+            fetch(`http://localhost:4000/zoos/${currentDestinationId}/animals`, {
+            method: 'PATCH',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({...animal, inZoo: true })
+          })
+           .then(res => res.json())
+           .then(() => {
+              setInZoo(false)
+            })
 
-          // })
-          setInZoo(true);
-        })
-        .catch((err) => console.error(err));
+          })
+        .catch(err => console.error(err))
     } else {
-      // 🎯
-      console.log(inZoo);
+      // 🎯 Build out delete Logic from ZOO
       fetch(`http://localhost:4000/animals/${id}`, {
-        method: "DELETE",
+        method: 'DELETE',
         headers: {
-          "Content-Type": "application/json",
-        },
+          'Content-Type': 'application/json'
+        }
       })
-        .then((res) => res.json())
+        .then(res => res.json())
         .then(() => {
-          setInZoo(true);
+          // 🎯 If delete is successful from ZOO remove element from DOM
         })
-        .catch((err) => console.error(err));
+        .catch(err => console.error(err))
     }
-  };
+  }
   // at this layer set state
   // inZoo = false
   // [inZoo, setInZ00] = useState(false)
@@ -63,41 +64,33 @@ const AnimalCard = ({ animal }) => {
   // in in animal list there is more details
   // //maybe a hover or click to expand those details
   return (
-    <Card style={{ width: "18rem" }}>
-      <Card.Img style={{ maxHeight: 180 }} variant="top" src={image} />
+    <Card style={{ width: '18rem' }}>
+      <Card.Img style={{ maxHeight: 180 }} variant='top' src={image} />
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>{details}</Card.Text>
-        
-        <div className="mb-2">
-          <Button variant="outline-info" size="sm">
-            Transfer To Omaha Zoo
-          </Button>
-        </div>
-
-        <div className="mb-2">
-          <Button variant="outline-info" size="sm">
-            Transfer To San Diego Zoo
-          </Button>
-        </div>
-
-        <div className="mb-2">
-          <Button variant="outline-info" size="sm">
-            Transfer To Columbus Zoo
-          </Button>
-        </div>
-
-        <div className="mb-2">
-          <Button variant="secondary" size="sm">
-            Remove Animal From Zoo
-            </Button>
-        </div>
-
+        {/* 🎯 Add SELECT from React-BootStrap for choosing ZOO 
+        https://react-bootstrap.github.io/forms/select/*/}
+        {/* If isInZoo is TRUE, do not show form (do no evaluate second statement) */}
+        {isInZoo || <Form.Select onChange={handleCurrentDestinationId} aria-label="Default select example">
+          {/* Need to modify this for multiple options that may change based on number of zoos... */}
+          <option>Open this select menu</option>
+          <option value="1">Zoo 1 - San Diego</option>
+          <option value="2">Zoo 2 - Columbus</option>
+          <option value="3">Zoo 3 - Omaha</option>
+        </Form.Select>
+        }
+        <Button
+          className='mb-2'
+          onClick={handleInZoo}
+          variant='secondary'
+          size='sm'
+        >
+          {isInZoo ? 'Remove from Zoo' : 'Add to Zoo'}
+        </Button>
       </Card.Body>
     </Card>
-  );
+  )
 }
-
-
 
 export default AnimalCard
