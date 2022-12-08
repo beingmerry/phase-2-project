@@ -19,6 +19,7 @@ const App = () => {
     for (let i = 0; i < numberOfAnimals; i += 1) {
       randomAnimals.push(speciesList[Math.floor(Math.random() * speciesList.length)])
     }
+    return randomAnimals
   }
 
 
