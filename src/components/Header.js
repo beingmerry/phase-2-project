@@ -5,18 +5,16 @@ const Header = () => {
   return (
     <Navbar bg='dark' variant='dark' expand='md'>
       <Container>
-        <LinkContainer to='/'>
-          <Navbar.Brand>
-            <img
-              alt=''
-              src='./logo512.png'
-              width='30'
-              height='30'
-              className='d-inline-block align-top'
-            />{' '}
-            ZooWorld
-          </Navbar.Brand>
-        </LinkContainer>
+        <Navbar.Brand>
+          <img
+            alt='Zoo World Logo'
+            src='./logo512.png'
+            width='30'
+            height='30'
+            className='d-inline-block align-top'
+          />{' '}
+          ZooWorld
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ml-auto'>

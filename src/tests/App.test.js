@@ -8,9 +8,3 @@ test('renders header element', () => {
   expect(headerElement).toBeInTheDocument()
 })
 
-test('renders logo element', () => {
-  render(<App />)
-  const logoElement = screen.getByText(/ZW/i)
-
-  expect(logoElement).toBeInTheDocument()
-})
