@@ -30,7 +30,7 @@ const App = () => {
       .then(res => res.json())
       .then(data => {
         setSpeciesList([...data.data])
-        console.table(randomAnimals(speciesList))
+        
       })
       .catch(err => console.error(err))
     fetch('http://localhost:4000/zoos')
@@ -50,7 +50,8 @@ const App = () => {
       // eslint-disable-next-line
   }, [])
 
-  
+  const randomSpecies = randomAnimals(speciesList)
+  false && console.log(randomSpecies)
   // Build a zoo with animals in it
   return (
     <div className='App'>

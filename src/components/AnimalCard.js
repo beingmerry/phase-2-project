@@ -14,7 +14,6 @@ const AnimalCard = ({ animal, zoos }) => {
     const destinationId = parseInt(event.target.value)
     setCurrentDestinationId(destinationId)
   }
-    
   const handleInZoo = () => {
     if (!inZoo) {
       // 🎯🎯 Build out TRANSFER Logic (Delete + PATCH) from animal list
