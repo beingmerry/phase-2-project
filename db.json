@@ -55,6 +55,12 @@
       "name": "Winnie",
       "details": "the pooh bear",
       "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Winniethepooh.png"
+    },
+    {
+      "id": 3,
+      "name": "Elephant",
+      "details": "Big boi, long nose",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg"
     }
   ]
 }
