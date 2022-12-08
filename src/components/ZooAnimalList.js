@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import ZooAnimalCard from './ZooAnimalCard'
 
-const ZooAnimalList = ({ zoo }) => {
+const ZooAnimalList = ({ zoo, setZoos}) => {
   const [zooAnimals, setZooAnimals] = useState(zoo.animals)
   const handleRemoveFromZoo = animalToRemove => {
     const newZooAnimals = [...zooAnimals].filter(
@@ -16,7 +16,10 @@ const ZooAnimalList = ({ zoo }) => {
       body: JSON.stringify({ ...zoo, animals: newZooAnimals })
     })
       .then(res => res.json())
-      .then(() => setZooAnimals(newZooAnimals))
+      .then(() => {
+        setZooAnimals(newZooAnimals)
+        setZoos([...zoo])
+      })
       .catch(err => console.error(err))
   }
 

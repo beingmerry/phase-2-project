@@ -37,7 +37,6 @@ const App = () => {
       .then(res => res.json())
       .then(data => {
         setZoos(data)
-        setLoading(false)
       })
       .catch(err => console.error(err))
     fetch('http://localhost:4000/animals')
@@ -63,8 +62,8 @@ const App = () => {
       )}
       <div style={{ paddingTop: 10, marginLeft: 15, marginRight: 15 }}>
         <Routes>
-          <Route path='' element={<ZooList zoos={zoos} />} />
-          <Route path='animals' element={<AnimalList animals={animals} />} />
+          <Route path='' element={<ZooList zoos={zoos} setZoos={setZoos}/>} />
+          <Route path='animals' element={<AnimalList animals={animals} zoos={zoos} setZoos={setZoos} />} />
           <Route path='new-animal' element={<AnimalForm />} />
         </Routes>
       </div>
