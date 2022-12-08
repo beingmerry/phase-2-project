@@ -13,6 +13,14 @@ const App = () => {
   const [animals, setAnimals] = useState([])
   const [zoos, setZoos] = useState([])
   const [loading, setLoading] = useState(true)
+  const randomAnimals = (speciesList) => {
+    const numberOfAnimals = Math.floor(Math.random() * 10 + 1)
+    let randomAnimals = []
+    for (let i = 0; i < numberOfAnimals; i += 1) {
+      randomAnimals.push(speciesList[Math.floor(Math.random() * speciesList.length)])
+    }
+  }
+
 
   useEffect(() => {
     fetch(
@@ -21,6 +29,7 @@ const App = () => {
       .then(res => res.json())
       .then(data => {
         setSpeciesList([...data.data])
+        
       })
       .catch(err => console.error(err))
     fetch('http://localhost:4000/zoos')
@@ -37,8 +46,10 @@ const App = () => {
         setLoading(false)
       })
       .catch(err => console.error(err))
+      // eslint-disable-next-line
   }, [])
 
+  
   // Build a zoo with animals in it
   return (
     <div className='App'>
