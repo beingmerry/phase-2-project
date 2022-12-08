@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 
 const AnimalForm = props => {
@@ -10,10 +10,10 @@ const AnimalForm = props => {
   //   "isInZoo": false
   // }
   // const [animalToAdd, setAnimalToAdd] = useState(initalAnimal)
-  const handleSubmit = e => {
-    e.preventDefault()
-    console.log()
-  }
+  // const handleSubmit = e => {
+  //   e.preventDefault()
+  //   console.log()
+  // }
   // 🎯🏗️ The form will submit as a POST to the animals db.json resource
   // function handleSubmit = (e) {e.prevent.default; [e.target.name]:}
   // fetch request go to ->> local json animals db, ADD to with POST, property isInZoo: false

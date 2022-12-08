@@ -8,13 +8,6 @@
       "image": "https://www.sandiego.org/-/media/597a48550e6d456abc93a6f8b8fd2a4c.jpg",
       "animals": [
         {
-          "id": 1,
-          "name": "Tiger",
-          "details": "super scary",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Walking_tiger_female.jpg",
-          "isInZoo": true
-        },
-        {
           "id": 2,
           "name": "Winnie",
           "details": "the pooh bear",
@@ -30,13 +23,6 @@
       "description": "The Columbus Zoo and Aquarium is dedicated to being a responsible and accessible community partner. Through our outreach and engagement programs, we identify and invite diverse and underserved groups in our community to enrich their relationship with nature. These programs educate and empower all people so they may be compelled to love and protect the future of wildlife and wild places. Here’s how we seek them out and invite them in.",
       "image": "https://columbuszoo.org/Media/images/default-source/default-album/reindeer-encounters.jpg?sfvrsn=f918b1a6_0",
       "animals": [
-        {
-          "id": 1,
-          "name": "Tiger",
-          "details": "super scary",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Walking_tiger_female.jpg",
-          "isInZoo": true
-        },
         {
           "name": "Elephant",
           "details": "Big boi, long nose",
@@ -66,7 +52,7 @@
           "details": "the pooh bear",
           "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Winniethepooh.png",
           "isInZoo": true
-          }
+        }
       ]
     }
   ],
@@ -76,13 +62,6 @@
       "name": "Tiger",
       "details": "super scary",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Walking_tiger_female.jpg",
-      "isInZoo": false
-    },
-    {
-      "id": 2,
-      "name": "Winnie",
-      "details": "the pooh bear",
-      "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Winniethepooh.png",
       "isInZoo": false
     },
     {

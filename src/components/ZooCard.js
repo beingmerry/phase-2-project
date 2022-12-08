@@ -1,10 +1,10 @@
 import React from 'react'
-import AnimalList from './AnimalList'
+import ZooAnimalList from './ZooAnimalList'
 import { Card, Col } from 'react-bootstrap'
 // 🎯 ToDo build out the animals in the zoo logic
 
 const ZooCard = ({ zoo }) => {
-  const { image, name, description, id, habitat, animals } = zoo
+  const { image, name, description, id, habitat } = zoo
 
   // debugger
   return (
@@ -15,7 +15,8 @@ const ZooCard = ({ zoo }) => {
           <Card.Title>{name} | {habitat}</Card.Title>
           <Card.Text>Description | {description}</Card.Text>
           <Card.Body>
-            <AnimalList animals={animals} />
+            {/* need zoo for array to update, (only ID?), need animals for  */}
+            <ZooAnimalList zoo={zoo} />
           </Card.Body>
         </Card.Body>
       </Card>
