@@ -1,6 +1,10 @@
 # phase-2-project
 phase 2 project w/ 0 connect to original Flatiron page
 
+# 2022-12-08, Thursday, 1 day till the FREAKING APOCALYPSE
+
+Polish, dark mode, local storage GOALS
+
 # 2022-12-06, Tuesday, 3 days till DESTRUCTION
 
 🎯 Morning Team! Let's get started on our Zoo World project (or whatever we decide to build, Key goal, IDEAS)
