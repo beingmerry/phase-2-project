@@ -28,14 +28,14 @@ const Header = () => {
               <Nav.Link>Add Animal</Nav.Link>
             </LinkContainer>
             <NavDropdown title='Dropdown' id='basic-nav-dropdown'>
-              <NavDropdown.Item href='#action/3.1'>Action</NavDropdown.Item>
+              <NavDropdown.Item href='#action/3.1'>🏗️ Build New Zoo</NavDropdown.Item>
               <NavDropdown.Item href='#action/3.2'>
-                Another action
+                🦍 Go on a Safari
               </NavDropdown.Item>
-              <NavDropdown.Item href='#action/3.3'>Something</NavDropdown.Item>
+              <NavDropdown.Item href='#action/3.3'>💲 Sell a Zoo</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href='#action/3.4'>
-                Separated link
+                ❓About Us
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
