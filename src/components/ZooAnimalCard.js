@@ -1,6 +1,5 @@
 import { Button, Card } from 'react-bootstrap'
 
-// Need to bring Zoos to here as prop to build the SELECTOR of the ZOO to send to
 const ZooAnimalCard = ({ animal, onRemoveFromZoo }) => {
   const { image, name, details } = animal
 

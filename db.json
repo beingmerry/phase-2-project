@@ -8,11 +8,9 @@
       "image": "https://www.sandiego.org/-/media/597a48550e6d456abc93a6f8b8fd2a4c.jpg",
       "animals": [
         {
-          "id": 2,
           "name": "Winnie",
           "details": "the pooh bear",
-          "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Winniethepooh.png",
-          "isInZoo": true
+          "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Winniethepooh.png"
         }
       ]
     },
@@ -26,9 +24,7 @@
         {
           "name": "Elephant",
           "details": "Big boi, long nose",
-          "id": 3,
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg",
-          "isInZoo": true
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg"
         }
       ]
     },
@@ -42,16 +38,7 @@
         {
           "name": "Elephant",
           "details": "Big boi, long nose",
-          "id": 3,
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg",
-          "isInZoo": true
-        },
-        {
-          "id": 2,
-          "name": "Winnie",
-          "details": "the pooh bear",
-          "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Winniethepooh.png",
-          "isInZoo": true
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg"
         }
       ]
     }
@@ -61,15 +48,19 @@
       "id": 1,
       "name": "Tiger",
       "details": "super scary",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Walking_tiger_female.jpg",
-      "isInZoo": false
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Walking_tiger_female.jpg"
     },
     {
+      "id": 2,
+      "name": "Winnie",
+      "details": "the pooh bear",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Winniethepooh.png"
+    },
+    {
+      "id": 3,
       "name": "Elephant",
       "details": "Big boi, long nose",
-      "id": 3,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg",
-      "isInZoo": false
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg"
     }
   ]
 }
