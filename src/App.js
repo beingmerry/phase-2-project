@@ -5,6 +5,8 @@ import AnimalList from './components/AnimalList.js'
 import AnimalForm from './components/AnimalForm.js'
 import ZooList from './components/ZooList.js'
 import { useState, useEffect } from 'react'
+import Footer from './components/DevSocial.js'
+
 
 // import { Button } from 'react-bootstrap/Button'
 
@@ -62,6 +64,8 @@ const App = () => {
 
   const randomSpecies = randomAnimals(speciesList)
   false && console.log(randomSpecies)
+
+  //randomAnimals is an array, right? should we set the
   // Build a zoo with animals in it
   return (
     <div className='App'>
@@ -91,9 +95,16 @@ const App = () => {
             }
           />
           <Route path='new-animal' element={<AnimalForm />} />
+          <Route
+            path="links"
+            element={<Footer />} />
         </Routes>
+
       </div>
+      <div>
       {/* <Footer> */}
+
+      </div>
     </div>
   )
 }
