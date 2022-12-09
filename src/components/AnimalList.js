@@ -13,7 +13,7 @@ const AnimalList = ({ animals, zoos, updateZoosWithZoo, removeFromAnimals }) => 
       />
     )
   })
-
+// may want to get rid of <ol> parent element from React errors? Most likely Zoo options list...
   return (
     <div>
       <h2>Animals</h2>

@@ -6,22 +6,21 @@ import AnimalForm from './components/AnimalForm.js'
 import ZooList from './components/ZooList.js'
 import { useState, useEffect } from 'react'
 
-// import { Button } from 'react-bootstrap/Button'
-
 const App = () => {
   const [speciesList, setSpeciesList] = useState([])
   const [animals, setAnimals] = useState([])
   const [zoos, setZoos] = useState([])
   const [loading, setLoading] = useState(true)
-  const randomAnimals = speciesList => {
+
+  const randomAnimals = (setOfAnimals) => {
     const numberOfAnimals = Math.floor(Math.random() * 10 + 1)
-    let randomAnimals = []
+    let currentRandomAnimals = []
     for (let i = 0; i < numberOfAnimals; i += 1) {
-      randomAnimals.push(
-        speciesList[Math.floor(Math.random() * speciesList.length)]
+      currentRandomAnimals.push(
+        setOfAnimals[Math.floor(Math.random() * setOfAnimals.length)]
       )
     }
-    return randomAnimals
+    return currentRandomAnimals
   }
   const updateZoosWithZoo = zooToUpdate => {
     const updatedZoos = zoos.map(zoo => {
@@ -32,8 +31,10 @@ const App = () => {
 
   const removeFromAnimals = animalToRemove => {
     setAnimals([...animals].filter(animal => animal !== animalToRemove))
-    return
   }
+
+  useEffect(() => {}, [loading])
+
 
   useEffect(() => {
     fetch(
@@ -42,6 +43,7 @@ const App = () => {
       .then(res => res.json())
       .then(data => {
         setSpeciesList([...data.data])
+        setLoading(false)
       })
       .catch(err => console.error(err))
     fetch('http://localhost:4000/zoos')
@@ -54,14 +56,10 @@ const App = () => {
       .then(res => res.json())
       .then(data => {
         setAnimals(data)
-        setLoading(false)
-      })
+        })
       .catch(err => console.error(err))
-    // eslint-disable-next-line
   }, [])
 
-  const randomSpecies = randomAnimals(speciesList)
-  false && console.log(randomSpecies)
   // Build a zoo with animals in it
   return (
     <div className='App'>
