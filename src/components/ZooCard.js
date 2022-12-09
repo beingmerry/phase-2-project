@@ -1,7 +1,7 @@
 import ZooAnimalList from './ZooAnimalList'
 import { Card, Col } from 'react-bootstrap'
 
-const ZooCard = ({ zoo, setZoos}) => {
+const ZooCard = ({ zoo, updateZoosWithZoo}) => {
   const { image, name, description, habitat } = zoo
 
   // debugger
@@ -13,7 +13,7 @@ const ZooCard = ({ zoo, setZoos}) => {
           <Card.Title>{name} | {habitat}</Card.Title>
           <Card.Text>Description | {description}</Card.Text>
           <Card.Body>
-            <ZooAnimalList zoo={zoo} setZoos={setZoos} />
+            <ZooAnimalList zoo={zoo} updateZoosWithZoo={updateZoosWithZoo} />
           </Card.Body>
         </Card.Body>
       </Card>
