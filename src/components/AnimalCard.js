@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Button, Card, Form } from 'react-bootstrap'
 
+
 const AnimalCard = ({ animal, zoos, removeFromCurrentAnimals, setZoos }) => {
   const { image, name, details, id } = animal
   const zooAnimal = {
@@ -11,7 +12,9 @@ const AnimalCard = ({ animal, zoos, removeFromCurrentAnimals, setZoos }) => {
   const zooOptions = zoos.map(zoo => {
     return (
       <>
-        <option value={zoo.id}>{zoo.name}</option>
+        <option id={zoo.id} value={zoo.id}>
+          {zoo.name}
+        </option>
       </>
     )
   })
@@ -20,6 +23,9 @@ const AnimalCard = ({ animal, zoos, removeFromCurrentAnimals, setZoos }) => {
   const handleZooId = event => setZooId(parseInt(event.target.value))
   const handleTransferToZoo = () => {
     
+    const oldAnimals = [...zoos[zooId-1].animals] 
+    const newZooAnimals = [...oldAnimals, zooAnimal]
+    debugger
     // ⚠️ [zooId - 1] for the array mgmt is hacky and needs fixed ToDo ⚠️ <------------->>
     fetch(`http://localhost:4000/animals/${id}`, { method: 'DELETE' }).then(
       () => {
@@ -28,21 +34,13 @@ const AnimalCard = ({ animal, zoos, removeFromCurrentAnimals, setZoos }) => {
           headers: {
             'Content-Type': 'application/json'
           },
-          body: JSON.stringify({
-            ...zoos[zooId-1],
-            animals: [...zoos[zooId-1].animals, zooAnimal]
-          })
+          body: JSON.stringify({animals: newZooAnimals})
         })
           .then(res => res.json())
-          .then(zooAnimal => {
+          .then(zoo => {
+            console.log(zoo)
             removeFromCurrentAnimals(animal)
-            setZoos([
-              ...zoos,
-              {
-                ...zoos[zooId-1],
-                animals: [...zoos[zooId-1].animals, zooAnimal]
-              }
-            ])
+            debugger
           })
           .catch(err => console.error(err))
       }

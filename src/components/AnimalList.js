@@ -1,13 +1,13 @@
-import {useState} from 'react'
+import { useState } from 'react'
 import AnimalCard from './AnimalCard'
 
-const AnimalList = ({ animals, zoos, setZoos }) => {
-
-
+const AnimalList = ({ animals, zoos, updateZoosWithZoo }) => {
   // build unordered list of animals from animals array
   const [currentAnimals, setCurrentAnimals] = useState(animals)
-  const removeFromCurrentAnimals = (animalToRemove) => {
-    setCurrentAnimals([...currentAnimals].filter(animal => animal !== animalToRemove))
+  const removeFromCurrentAnimals = animalToRemove => {
+    setCurrentAnimals(
+      [...currentAnimals].filter(animal => animal !== animalToRemove)
+    )
   }
   // const handleRemoveFromZoo = animalToRemove => {
   //   const newZooAnimals = [...zooAnimals].filter(
@@ -26,15 +26,22 @@ const AnimalList = ({ animals, zoos, setZoos }) => {
   // }
 
   const animalCards = currentAnimals.map((animal, index) => {
-    return <AnimalCard key={`current-animal-${animal.id}`} animal={animal} index={index} zoos={zoos} removeFromCurrentAnimals={removeFromCurrentAnimals} setZoos={setZoos} />
+    return (
+      <AnimalCard
+        key={`current-animal-${animal.id}`}
+        animal={animal}
+        index={index}
+        zoos={zoos}
+        removeFromCurrentAnimals={removeFromCurrentAnimals}
+        updateZoosWithZoo={updateZoosWithZoo}
+      />
+    )
   })
 
   return (
     <div>
       <h2>Animals</h2>
-      <ol>
-      {animalCards}
-      </ol>
+      <ol>{animalCards}</ol>
     </div>
   )
 }

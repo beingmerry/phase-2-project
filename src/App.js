@@ -13,15 +13,22 @@ const App = () => {
   const [animals, setAnimals] = useState([])
   const [zoos, setZoos] = useState([])
   const [loading, setLoading] = useState(true)
-  const randomAnimals = (speciesList) => {
+  const randomAnimals = speciesList => {
     const numberOfAnimals = Math.floor(Math.random() * 10 + 1)
     let randomAnimals = []
     for (let i = 0; i < numberOfAnimals; i += 1) {
-      randomAnimals.push(speciesList[Math.floor(Math.random() * speciesList.length)])
+      randomAnimals.push(
+        speciesList[Math.floor(Math.random() * speciesList.length)]
+      )
     }
     return randomAnimals
   }
-
+  const updateZoosWithZoo = zooToUpdate => {
+    const updatedZoos = zoos.map(zoo => {
+      return zoo.id === zooToUpdate.id ? zooToUpdate : zoo
+    })
+    setZoos(updatedZoos)
+  }
 
   useEffect(() => {
     fetch(
@@ -30,7 +37,6 @@ const App = () => {
       .then(res => res.json())
       .then(data => {
         setSpeciesList([...data.data])
-        
       })
       .catch(err => console.error(err))
     fetch('http://localhost:4000/zoos')
@@ -46,7 +52,7 @@ const App = () => {
         setLoading(false)
       })
       .catch(err => console.error(err))
-      // eslint-disable-next-line
+    // eslint-disable-next-line
   }, [])
 
   const randomSpecies = randomAnimals(speciesList)
@@ -62,8 +68,18 @@ const App = () => {
       )}
       <div style={{ paddingTop: 10, marginLeft: 15, marginRight: 15 }}>
         <Routes>
-          <Route path='' element={<ZooList zoos={zoos} setZoos={setZoos}/>} />
-          <Route path='animals' element={<AnimalList animals={animals} zoos={zoos} setZoos={setZoos} />} />
+          <Route
+            path=''
+            element={
+              <ZooList zoos={zoos} updateZoosWithZoo={updateZoosWithZoo} />
+            }
+          />
+          <Route
+            path='animals'
+            element={
+              <AnimalList animals={animals} zoos={zoos} updateZoosWithZoo={updateZoosWithZoo} />
+            }
+          />
           <Route path='new-animal' element={<AnimalForm />} />
         </Routes>
       </div>

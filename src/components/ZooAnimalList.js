@@ -1,8 +1,8 @@
 import { useState } from 'react'
-
+import { Row } from 'react-bootstrap'
 import ZooAnimalCard from './ZooAnimalCard'
 
-const ZooAnimalList = ({ zoo, setZoos}) => {
+const ZooAnimalList = ({ zoo, updateZoosWithZoo}) => {
   const [zooAnimals, setZooAnimals] = useState(zoo.animals)
   const handleRemoveFromZoo = animalToRemove => {
     const newZooAnimals = [...zooAnimals].filter(
@@ -16,9 +16,10 @@ const ZooAnimalList = ({ zoo, setZoos}) => {
       body: JSON.stringify({ ...zoo, animals: newZooAnimals })
     })
       .then(res => res.json())
-      .then(() => {
+      .then(zooUpdated => {
+        console.log(zooUpdated)
         setZooAnimals(newZooAnimals)
-        setZoos([...zoo])
+        updateZoosWithZoo(zooUpdated)
       })
       .catch(err => console.error(err))
   }
@@ -37,7 +38,9 @@ const ZooAnimalList = ({ zoo, setZoos}) => {
   return (
     <div>
       <h2>Animals</h2>
-      <ol>{zooAnimalCards}</ol>
+      <Row xs={2} md={3} className='g-4'>
+        {zooAnimalCards}
+      </Row>
     </div>
   )
 }
