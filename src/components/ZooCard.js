@@ -4,7 +4,7 @@ import { Card, Col } from 'react-bootstrap'
 const ZooCard = ({ zoo, updateZoosWithZoo}) => {
   const { image, name, description, habitat } = zoo
 
-  // debugger
+  
   return (
     <Col>
       <Card >

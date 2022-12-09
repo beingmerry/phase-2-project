@@ -17,7 +17,6 @@ const ZooAnimalList = ({ zoo, updateZoosWithZoo}) => {
     })
       .then(res => res.json())
       .then(zooUpdated => {
-        console.log(zooUpdated)
         setZooAnimals(newZooAnimals)
         updateZoosWithZoo(zooUpdated)
       })

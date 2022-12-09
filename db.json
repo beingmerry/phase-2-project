@@ -8,9 +8,20 @@
       "image": "https://www.sandiego.org/-/media/597a48550e6d456abc93a6f8b8fd2a4c.jpg",
       "animals": [
         {
-          "name": "Winnie",
-          "details": "the pooh bear",
-          "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Winniethepooh.png"
+          "name": "Western burrowing owl",
+          "image": {
+            "value": "/docs/species_images/doc4119.jpg",
+            "url": "https://ecos.fws.gov/docs/species_images/doc4119.jpg"
+          },
+          "details": "The Burrowing Owl is small ground-dwelling diurnal owl with several distinctive features including its bright yellow eyes, long legs and characteristic bobbing behavior when disturbed. Burrowing Owls range in length from 19-25 cm and have brown and buffy-white spotted feathers with a buffy-white eyebrow. Males are slightly larger than females. Juveniles are distinguishable from adults by their solid buff colored breast and wings (Poulin et al. 2011).\r\n<p><b>Citations:</b>\r\n<ul>\r\n<li>Dechant, J. A., M. L. Sondreal, D. H. Johnson, L. D. Igl, C. M. Goldade, P. A. Rabie, and B. R. Euliss. 1999 (revised 2002). Effects of management practices on grassland birds: Burrowing owl. Northern Prairie Wildlife Research Center, Jamestown, ND. 33 pages.\r\n<li>Martin, D.J. 1973. Selected Aspects of Burrowing owl Ecology and Behavior. The Condor 75(4): 446-456.\r\n<li>Poulin, Ray, L. Danielle Todd, E. A. Haug, B. A. Millsap and M. S. Martell. 2011. Burrowing Owl (Athene cunicularia), The Birds of North America Online (A. Poole, Ed.). Ithaca: Cornell Lab of Ornithology; Retrieved from the Birds of North America Online: <a href=\"http://bna.birds.cornell.edu/bna/species/061\">http://bna.birds.cornell.edu/bna/species/061</a>\r\n<li>Smallwood, S.K. and C. Thelander. 2008. Bird Mortality in the Altamont Pass Wind Resource Area. The Journal of Wildlife Management 72(1): 215-223.\r\n<li>U.S. Fish and Wildlife Service (USFWS ). 2002. Raptors: Diurnal and Nocturnal Birds of Prey. Fact Sheet. Web. 06 August 2011. <http://birds.fws.gov/Raptor-Fact-Sheet.pdf>\r\n</ul>\r\n"
+        },
+        {
+          "name": "Florida bonneted bat",
+          "image": {
+            "value": "/docs/species_images/doc5033.jpg",
+            "url": "https://ecos.fws.gov/docs/species_images/doc5033.jpg"
+          },
+          "details": "The Florida bonneted bat is a member of the Molossidae (free-tailed bats) family within the order Chiroptera. The species is the largest bat in Florida(Owre 1978; Belwood 1992). Males and females are not significantly different in size, and there is no pattern of size-related geographic variation in this species(Timm and Genoways 2004). Members of the genus Eumops have large, rounded pinnae (ears), arising from a single point or joined medially on the forehead (Best et al. 1997). Ears are joined at the midline of the head. This feature, along with its large size, distinguishes the Florida bonneted bat from the smaller Brazilian (=Mexican)free-tailed bat (Tadarida brasiliensis). Eumops are among the narrowest of all molossids (Freeman 1981, as cited in Best et al. 1997) and are well-adapted for rapid, prolonged flight (Vaughan 1959 as cited in Best et al. 1997). This wing structure is conducive to high-speed flight in open areas (Findley et al. 1972 as cited in Best et al. 1997). The Florida bonneted batÃÂ¢Ã¯Â¿Â½Ã¯Â¿Â½s fur is short and glossy, with hairs sharply bicolored with a white base (Belwood 1992; Timm and Genoways 2004). Like other molossids, color is highly variable, varying from black to brown to brownish-gray or cinnamon brown with ventral pelage (fur) paler than dorsal (Owre 1978; Belwood 1992; Timm and Genoways 2004)."
         }
       ]
     },
@@ -22,9 +33,28 @@
       "image": "https://columbuszoo.org/Media/images/default-source/default-album/reindeer-encounters.jpg?sfvrsn=f918b1a6_0",
       "animals": [
         {
-          "name": "Tiger",
-          "details": "super scary",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Walking_tiger_female.jpg"
+          "name": "Wood stork",
+          "image": {
+            "value": "/docs/species_images/doc1974.jpg",
+            "url": "https://ecos.fws.gov/docs/species_images/doc1974.jpg"
+          },
+          "details": "Wood storks are large, long-legged wading birds, about 5O inches tall, with a wingspan of 60 to 65 inches. The plumage is white except for black primaries and secondaries and a short black tail. The head and neck are largely unfeathered and dark gray in color. The bill is black, thick at the base, and slightly decurved. Immature birds are dingy gray and have a yellowish bill. \n"
+        },
+        {
+          "name": "Western burrowing owl",
+          "image": {
+            "value": "/docs/species_images/doc4119.jpg",
+            "url": "https://ecos.fws.gov/docs/species_images/doc4119.jpg"
+          },
+          "details": "The Burrowing Owl is small ground-dwelling diurnal owl with several distinctive features including its bright yellow eyes, long legs and characteristic bobbing behavior when disturbed. Burrowing Owls range in length from 19-25 cm and have brown and buffy-white spotted feathers with a buffy-white eyebrow. Males are slightly larger than females. Juveniles are distinguishable from adults by their solid buff colored breast and wings (Poulin et al. 2011).\r\n<p><b>Citations:</b>\r\n<ul>\r\n<li>Dechant, J. A., M. L. Sondreal, D. H. Johnson, L. D. Igl, C. M. Goldade, P. A. Rabie, and B. R. Euliss. 1999 (revised 2002). Effects of management practices on grassland birds: Burrowing owl. Northern Prairie Wildlife Research Center, Jamestown, ND. 33 pages.\r\n<li>Martin, D.J. 1973. Selected Aspects of Burrowing owl Ecology and Behavior. The Condor 75(4): 446-456.\r\n<li>Poulin, Ray, L. Danielle Todd, E. A. Haug, B. A. Millsap and M. S. Martell. 2011. Burrowing Owl (Athene cunicularia), The Birds of North America Online (A. Poole, Ed.). Ithaca: Cornell Lab of Ornithology; Retrieved from the Birds of North America Online: <a href=\"http://bna.birds.cornell.edu/bna/species/061\">http://bna.birds.cornell.edu/bna/species/061</a>\r\n<li>Smallwood, S.K. and C. Thelander. 2008. Bird Mortality in the Altamont Pass Wind Resource Area. The Journal of Wildlife Management 72(1): 215-223.\r\n<li>U.S. Fish and Wildlife Service (USFWS ). 2002. Raptors: Diurnal and Nocturnal Birds of Prey. Fact Sheet. Web. 06 August 2011. <http://birds.fws.gov/Raptor-Fact-Sheet.pdf>\r\n</ul>\r\n"
+        },
+        {
+          "name": "Eastern prairie fringed orchid",
+          "image": {
+            "value": "/docs/species_images/doc5080.jpg",
+            "url": "https://ecos.fws.gov/docs/species_images/doc5080.jpg"
+          },
+          "details": "This plant is 8 to 40 inches tall and has an upright leafy stem with a flower cluster called an inflorescence. The 3 to 8 inch lance-shaped leaves sheath the stem. Each plant has one single flower spike composed of 5 to 40 white flowers. Each flower has a three-part fringed lip less than 1 inch long and a nectar spur (tube-like structure) which is about 1 to 2 inches long.The eastern prairie fringed orchid occurs in a wide variety of habitats, from mesic prairie to wetlands such as sedge meadows, marsh edges, even bogs. It requires full sun for optimum growth and flowering and a grassy habitat with little or no woody encroachment. A symbiotic relationship between the seed and soil fungi, called mycorrhizae, is necessary for seedlings to become established. This fungi helps the seeds assimilate nutrients in the soil."
         }
       ]
     },
@@ -36,106 +66,25 @@
       "image": "https://assets.speakcdn.com/assets/2140/omahas_zoo_and_aquarium.jpg",
       "animals": [
         {
-          "name": "Elephant",
-          "details": "Big boi, long nose",
-<<<<<<< HEAD
-          "id": 3,
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg",
-          "isInZoo": true
+          "name": "Comanche-peak prairie-clover",
+          "image": {
+            "value": "/docs/species_images/doc4781.JPG",
+            "url": "https://ecos.fws.gov/docs/species_images/doc4781.JPG"
+          },
+          "details": "The Comanche Peak prairie clover is a globally rare member of the legume family, restricted to limestone glades, and is endemic to just a few counties in north central Texas (Bosque, Erath, Hood, Johnson, Parker, Somervell, Tarrant, and Wise counties). Comanche Peak prairie clover is known for single populations in Bosque, Hood, Johnson, and Somervelle Counties and two populations in Erath County. The majority of the populations of Comanche Peak prairie clover center on Weatherford, Texas in Parker County and a small area southeast of Decatur, Texas in Wise county. There are many threats to this plant which include urban sprawl, land fragmentation, mining, and herbivory."
         },
         {
-          "id": 2,
-          "name": "Winnie",
-          "details": "the pooh bear",
-          "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Winniethepooh.png",
-          "isInZoo": true
-=======
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg"
->>>>>>> 1669eef405fa97ac0300cb96edd8f3c633571090
+          "name": "Pacific Hawaiian damselfly",
+          "image": {
+            "value": "/docs/species_images/doc4910.jpg",
+            "url": "https://ecos.fws.gov/docs/species_images/doc4910.jpg"
+          },
+          "details": "Pacific Hawaiian damselflies are now believed to be limited to the islands of Maui and Molokai and one population found in 1998 on Hawaii island. The Pacific Hawaiian damselfly was first described by McLachlan (1883, p. 234), based on specimens collected by R.C.L. Perkins from streams on the islands of Lanai and Maui. This damselfly is a relatively small, dark colored species, with adults measuring 1.3 to 1.4 in (34 to 37 mm) in length and having a wingspan of 1.3 to 1.6 in (33 to 42 mm). Both adult males and females are mostly black in color. Males exhibit brick-red striping and patterns, while females exhibit light-green striping and patterns. The only immature individuals of this species that have been collected were early instar (an intermoult stage of development) individuals, and they exhibit flattened, leaf-like gills (Polhemus and Asquith 1996, p. 83). Pacific Hawaiian damselflies are distinguished from other Hawaiian damselflies by the long lower abdominal appendages of the male (USFWS 2010). Pacific damselflies do not disperse over long distances compared to other Hawaiian damselfies (Jordan et al 2007, USFWS 2011)."
         }
       ]
     }
   ],
   "animals": [
-    {
-      "id": 1,
-      "name": "Tiger",
-      "details": "super scary",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Walking_tiger_female.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Winnie",
-      "details": "the pooh bear",
-      "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Winniethepooh.png"
-    },
-    {
-      "id": 3,
-      "name": "Elephant",
-      "details": "Big boi, long nose",
-      "id": 3,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg",
-      "isInZoo": false
-    },
-  //   {
-  //     "name": "",
-  //     "details": "",
-  //     "image": "",
-  //     "id": 4
-  //   },
-  //   {
-  //     "name": "",
-  //     "details": "",
-  //     "image": "",
-  //     "id": 5
-  //   },
-  //   {
-  //     "name": "",
-  //     "details": "",
-  //     "image": "",
-  //     "id": 6
-  //   },
-  //   {
-  //     "name": "",
-  //     "details": "",
-  //     "image": "",
-  //     "id": 7
-  //   },
-  //   {
-  //     "name": "",
-  //     "details": "",
-  //     "image": "",
-  //     "id": 8
-  //   },
-  //   {
-  //     "name": "",
-  //     "details": "",
-  //     "image": "",
-  //     "id": 9
-  //   },
-  //   {
-  //     "name": "",
-  //     "details": "",
-  //     "image": "",
-  //     "id": 10
-  //   },
-  //   {
-  //     "name": "",
-  //     "details": "",
-  //     "image": "",
-  //     "id": 11
-  //   },
-  //   {
-  //     "name": "",
-  //     "details": "",
-  //     "image": "",
-  //     "id": 12
-  //   },
-  //   {
-  //     "name": "",
-  //     "details": "",
-  //     "image": "",
-  //     "id": 13
-  //   }
-  // ]
+    
+  ]
 }

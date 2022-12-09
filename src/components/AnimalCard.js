@@ -1,22 +1,20 @@
 import { useState } from 'react'
-import { Button, Card, Form } from 'react-bootstrap'
+import { Accordion, Button, Card, Form } from 'react-bootstrap'
 
-const AnimalCard = ({
-  animal,
-  zoos,
-  removeFromAnimals,
-  updateZoosWithZoo
-}) => {
-  const { image, name, details, id } = animal
+const AnimalCard = ({ animal, zoos, removeFromAnimals, updateZoosWithZoo }) => {
+  
+  const { imageUrl, commonName, speciesDescription, id } = animal
   const zooAnimal = {
-    name: animal.name,
-    image: animal.image,
-    details: animal.details
+    name: animal.commonName,
+    image: animal.imageUrl,
+    details: animal.speciesDescription
   }
   const zooOptions = zoos.map(zoo => {
     return (
       <>
-        <option key={zoo.id} value={zoo.id}>{zoo.name}</option>
+        <option key={zoo.id} value={zoo.id}>
+          {zoo.name}
+        </option>
       </>
     )
   })
@@ -26,7 +24,6 @@ const AnimalCard = ({
   const handleTransferToZoo = () => {
     const oldAnimals = [...zoos[zooId - 1].animals]
     const newZooAnimals = [...oldAnimals, zooAnimal]
-    debugger
     // ⚠️ [zooId - 1] for the array mgmt is hacky and needs fixed ToDo ⚠️ <------------->>
     fetch(`http://localhost:4000/animals/${id}`, { method: 'DELETE' }).then(
       () => {
@@ -48,12 +45,19 @@ const AnimalCard = ({
   }
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img style={{ maxHeight: 180 }} variant='top' src={image} />
+      <Card.Img style={{ maxHeight: 180 }} variant='top' src={imageUrl.url} />
       <Card.Body>
-        <Card.Title>{name}</Card.Title>
-        <Card.Text>Details | {details}</Card.Text>
+        <Card.Title>{commonName}</Card.Title>
+        <Accordion>
+          <Accordion.Item eventKey="0" >
+            <Accordion.Header>Details</Accordion.Header>
+            <Accordion.Body>
+              <Card.Text> {speciesDescription}</Card.Text>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
         <Form.Select
-          key="Form"        
+          key='Form'
           defaultValue={'DEFAULT'}
           onChange={handleZooId}
           aria-label='Default select'
