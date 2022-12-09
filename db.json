@@ -655,5 +655,575 @@
       "habitatRequirements": "",
       "id": 38
     }
+    {
+      "commonName": "Western burrowing owl",
+      "scientificName": {
+        "value": "Athene cunicularia ssp. hypugaea",
+        "url": "https://ecos.fws.gov/ecp/species/3855"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4119.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4119.jpg"
+      },
+      "speciesDescription": "The Burrowing Owl is small ground-dwelling diurnal owl with several distinctive features including its bright yellow eyes, long legs and characteristic bobbing behavior when disturbed. Burrowing Owls range in length from 19-25 cm and have brown and buffy-white spotted feathers with a buffy-white eyebrow. Males are slightly larger than females. Juveniles are distinguishable from adults by their solid buff colored breast and wings (Poulin et al. 2011).\r\n<p><b>Citations:</b>\r\n<ul>\r\n<li>Dechant, J. A., M. L. Sondreal, D. H. Johnson, L. D. Igl, C. M. Goldade, P. A. Rabie, and B. R. Euliss. 1999 (revised 2002). Effects of management practices on grassland birds: Burrowing owl. Northern Prairie Wildlife Research Center, Jamestown, ND. 33 pages.\r\n<li>Martin, D.J. 1973. Selected Aspects of Burrowing owl Ecology and Behavior. The Condor 75(4): 446-456.\r\n<li>Poulin, Ray, L. Danielle Todd, E. A. Haug, B. A. Millsap and M. S. Martell. 2011. Burrowing Owl (Athene cunicularia), The Birds of North America Online (A. Poole, Ed.). Ithaca: Cornell Lab of Ornithology; Retrieved from the Birds of North America Online: <a href=\"http://bna.birds.cornell.edu/bna/species/061\">http://bna.birds.cornell.edu/bna/species/061</a>\r\n<li>Smallwood, S.K. and C. Thelander. 2008. Bird Mortality in the Altamont Pass Wind Resource Area. The Journal of Wildlife Management 72(1): 215-223.\r\n<li>U.S. Fish and Wildlife Service (USFWS ). 2002. Raptors: Diurnal and Nocturnal Birds of Prey. Fact Sheet. Web. 06 August 2011. <http://birds.fws.gov/Raptor-Fact-Sheet.pdf>\r\n</ul>\r\n",
+      "habitatRequirements": "Burrowing Owls prefer habitats within deserts, grasslands, and shrub-steppe, and utilize well-drained, level to gently sloping areas characterized by sparse vegetation and bare ground such as moderately or heavily grazed pasture. They prefer short grass for nesting, but will forage over areas of tall vegetation (Dechant et al. 1999, revised 2002, p. 3). However, there is evidence that vegetation over 3.3 ft may be too tall for Burrowing Owls to locate prey. Types of foraging areas include cropland, pasture, prairie dog colonies, fallow fields, and sparsely vegetated areas (Dechant et al. 1999, revised 2002, p. 7). Burrowing Owls have been found in active prairie dog burrows, and are more likely to demonstrate increase survival and decreased predation at large, well-populated active prairie dog sites than smaller, inactive sites (Dechant et al. 1999, revised 2002, p. 5). Burrowing Owls also regularly utilize developed areas such as agricultural fields, golf courses, cemeteries, road allowances, airports, vacant urban lots, and fairgrounds (Poulin et al. 2011). ",
+      "id": 1
+    },
+    {
+      "commonName": "Wood stork",
+      "scientificName": {
+        "value": "Mycteria americana",
+        "url": "https://ecos.fws.gov/ecp/species/8477"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc1974.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc1974.jpg"
+      },
+      "speciesDescription": "Wood storks are large, long-legged wading birds, about 5O inches tall, with a wingspan of 60 to 65 inches. The plumage is white except for black primaries and secondaries and a short black tail. The head and neck are largely unfeathered and dark gray in color. The bill is black, thick at the base, and slightly decurved. Immature birds are dingy gray and have a yellowish bill. \n",
+      "habitatRequirements": "The southeast United States breeding population of the wood stork declined from an estimated 20,000 pairs in the 1930's to about 10,000 pairs by 1960, and to a low of approximately 5,000 pairs in the late 1970s.  Nesting primarily occurred in the Everglades.  The generally accepted explanation for the decline of the wood stork is the reduction in food base (primarly small fish) necessary to support breeding colonies.  This reduction is attributed to loss of wetland habitat as well as to changes in water hydroperiods from draining wetlands and changing water regimes by constructing levees, canals, and floodgates to alter water flow in south Florida.\n\nWood storks have a unique feeding technique and require higher prey concentrations than other wading birds.  Optimal water regimes for the wood stork involve periods of flooding, during which prey (fish) populations increase, alternating with dryer periods, during which receding water levels concentrate fish at higher densities coinciding with the stork's nesting season.  Loss of nesting habitat (primarily cypress swamps) may be affecting wood storks in central Florida, where nesting in non-native trees and in man-made impoundments has been occurring recently.  Less significant factors known to affect nesting success include prolonged drought and flooding, raccoon predation on nests, and human disturbance of rookeries.",
+      "id": 2
+    },
+    {
+      "commonName": "Comanche-peak prairie-clover",
+      "scientificName": {
+        "value": "Dalea reverchonii",
+        "url": "https://ecos.fws.gov/ecp/species/5199"
+      },
+      "speciesGroup": "Flowering Plants",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4781.JPG",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4781.JPG"
+      },
+      "speciesDescription": "The Comanche Peak prairie clover is a globally rare member of the legume family, restricted to limestone glades, and is endemic to just a few counties in north central Texas (Bosque, Erath, Hood, Johnson, Parker, Somervell, Tarrant, and Wise counties). Comanche Peak prairie clover is known for single populations in Bosque, Hood, Johnson, and Somervelle Counties and two populations in Erath County. The majority of the populations of Comanche Peak prairie clover center on Weatherford, Texas in Parker County and a small area southeast of Decatur, Texas in Wise county. There are many threats to this plant which include urban sprawl, land fragmentation, mining, and herbivory.",
+      "habitatRequirements": "Shallow calcareous clay to sandy clay soils over limestone in grasslands or openings in post oak woodlands, often among sparse vegetation in barren exposed sites.",
+      "id": 3
+    },
+    {
+      "commonName": "Wood stork",
+      "scientificName": {
+        "value": "Mycteria americana",
+        "url": "https://ecos.fws.gov/ecp/species/8477"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc1974.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc1974.jpg"
+      },
+      "speciesDescription": "Wood storks are large, long-legged wading birds, about 5O inches tall, with a wingspan of 60 to 65 inches. The plumage is white except for black primaries and secondaries and a short black tail. The head and neck are largely unfeathered and dark gray in color. The bill is black, thick at the base, and slightly decurved. Immature birds are dingy gray and have a yellowish bill. \n",
+      "habitatRequirements": "The southeast United States breeding population of the wood stork declined from an estimated 20,000 pairs in the 1930's to about 10,000 pairs by 1960, and to a low of approximately 5,000 pairs in the late 1970s.  Nesting primarily occurred in the Everglades.  The generally accepted explanation for the decline of the wood stork is the reduction in food base (primarly small fish) necessary to support breeding colonies.  This reduction is attributed to loss of wetland habitat as well as to changes in water hydroperiods from draining wetlands and changing water regimes by constructing levees, canals, and floodgates to alter water flow in south Florida.\n\nWood storks have a unique feeding technique and require higher prey concentrations than other wading birds.  Optimal water regimes for the wood stork involve periods of flooding, during which prey (fish) populations increase, alternating with dryer periods, during which receding water levels concentrate fish at higher densities coinciding with the stork's nesting season.  Loss of nesting habitat (primarily cypress swamps) may be affecting wood storks in central Florida, where nesting in non-native trees and in man-made impoundments has been occurring recently.  Less significant factors known to affect nesting success include prolonged drought and flooding, raccoon predation on nests, and human disturbance of rookeries.",
+      "id": 4
+    },
+    {
+      "commonName": "Western burrowing owl",
+      "scientificName": {
+        "value": "Athene cunicularia ssp. hypugaea",
+        "url": "https://ecos.fws.gov/ecp/species/3855"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4119.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4119.jpg"
+      },
+      "speciesDescription": "The Burrowing Owl is small ground-dwelling diurnal owl with several distinctive features including its bright yellow eyes, long legs and characteristic bobbing behavior when disturbed. Burrowing Owls range in length from 19-25 cm and have brown and buffy-white spotted feathers with a buffy-white eyebrow. Males are slightly larger than females. Juveniles are distinguishable from adults by their solid buff colored breast and wings (Poulin et al. 2011).\r\n<p><b>Citations:</b>\r\n<ul>\r\n<li>Dechant, J. A., M. L. Sondreal, D. H. Johnson, L. D. Igl, C. M. Goldade, P. A. Rabie, and B. R. Euliss. 1999 (revised 2002). Effects of management practices on grassland birds: Burrowing owl. Northern Prairie Wildlife Research Center, Jamestown, ND. 33 pages.\r\n<li>Martin, D.J. 1973. Selected Aspects of Burrowing owl Ecology and Behavior. The Condor 75(4): 446-456.\r\n<li>Poulin, Ray, L. Danielle Todd, E. A. Haug, B. A. Millsap and M. S. Martell. 2011. Burrowing Owl (Athene cunicularia), The Birds of North America Online (A. Poole, Ed.). Ithaca: Cornell Lab of Ornithology; Retrieved from the Birds of North America Online: <a href=\"http://bna.birds.cornell.edu/bna/species/061\">http://bna.birds.cornell.edu/bna/species/061</a>\r\n<li>Smallwood, S.K. and C. Thelander. 2008. Bird Mortality in the Altamont Pass Wind Resource Area. The Journal of Wildlife Management 72(1): 215-223.\r\n<li>U.S. Fish and Wildlife Service (USFWS ). 2002. Raptors: Diurnal and Nocturnal Birds of Prey. Fact Sheet. Web. 06 August 2011. <http://birds.fws.gov/Raptor-Fact-Sheet.pdf>\r\n</ul>\r\n",
+      "habitatRequirements": "Burrowing Owls prefer habitats within deserts, grasslands, and shrub-steppe, and utilize well-drained, level to gently sloping areas characterized by sparse vegetation and bare ground such as moderately or heavily grazed pasture. They prefer short grass for nesting, but will forage over areas of tall vegetation (Dechant et al. 1999, revised 2002, p. 3). However, there is evidence that vegetation over 3.3 ft may be too tall for Burrowing Owls to locate prey. Types of foraging areas include cropland, pasture, prairie dog colonies, fallow fields, and sparsely vegetated areas (Dechant et al. 1999, revised 2002, p. 7). Burrowing Owls have been found in active prairie dog burrows, and are more likely to demonstrate increase survival and decreased predation at large, well-populated active prairie dog sites than smaller, inactive sites (Dechant et al. 1999, revised 2002, p. 5). Burrowing Owls also regularly utilize developed areas such as agricultural fields, golf courses, cemeteries, road allowances, airports, vacant urban lots, and fairgrounds (Poulin et al. 2011). ",
+      "id": 5
+    },
+    {
+      "commonName": "Comanche-peak prairie-clover",
+      "scientificName": {
+        "value": "Dalea reverchonii",
+        "url": "https://ecos.fws.gov/ecp/species/5199"
+      },
+      "speciesGroup": "Flowering Plants",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4781.JPG",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4781.JPG"
+      },
+      "speciesDescription": "The Comanche Peak prairie clover is a globally rare member of the legume family, restricted to limestone glades, and is endemic to just a few counties in north central Texas (Bosque, Erath, Hood, Johnson, Parker, Somervell, Tarrant, and Wise counties). Comanche Peak prairie clover is known for single populations in Bosque, Hood, Johnson, and Somervelle Counties and two populations in Erath County. The majority of the populations of Comanche Peak prairie clover center on Weatherford, Texas in Parker County and a small area southeast of Decatur, Texas in Wise county. There are many threats to this plant which include urban sprawl, land fragmentation, mining, and herbivory.",
+      "habitatRequirements": "Shallow calcareous clay to sandy clay soils over limestone in grasslands or openings in post oak woodlands, often among sparse vegetation in barren exposed sites.",
+      "id": 6
+    },
+    {
+      "commonName": "Western burrowing owl",
+      "scientificName": {
+        "value": "Athene cunicularia ssp. hypugaea",
+        "url": "https://ecos.fws.gov/ecp/species/3855"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4119.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4119.jpg"
+      },
+      "speciesDescription": "The Burrowing Owl is small ground-dwelling diurnal owl with several distinctive features including its bright yellow eyes, long legs and characteristic bobbing behavior when disturbed. Burrowing Owls range in length from 19-25 cm and have brown and buffy-white spotted feathers with a buffy-white eyebrow. Males are slightly larger than females. Juveniles are distinguishable from adults by their solid buff colored breast and wings (Poulin et al. 2011).\r\n<p><b>Citations:</b>\r\n<ul>\r\n<li>Dechant, J. A., M. L. Sondreal, D. H. Johnson, L. D. Igl, C. M. Goldade, P. A. Rabie, and B. R. Euliss. 1999 (revised 2002). Effects of management practices on grassland birds: Burrowing owl. Northern Prairie Wildlife Research Center, Jamestown, ND. 33 pages.\r\n<li>Martin, D.J. 1973. Selected Aspects of Burrowing owl Ecology and Behavior. The Condor 75(4): 446-456.\r\n<li>Poulin, Ray, L. Danielle Todd, E. A. Haug, B. A. Millsap and M. S. Martell. 2011. Burrowing Owl (Athene cunicularia), The Birds of North America Online (A. Poole, Ed.). Ithaca: Cornell Lab of Ornithology; Retrieved from the Birds of North America Online: <a href=\"http://bna.birds.cornell.edu/bna/species/061\">http://bna.birds.cornell.edu/bna/species/061</a>\r\n<li>Smallwood, S.K. and C. Thelander. 2008. Bird Mortality in the Altamont Pass Wind Resource Area. The Journal of Wildlife Management 72(1): 215-223.\r\n<li>U.S. Fish and Wildlife Service (USFWS ). 2002. Raptors: Diurnal and Nocturnal Birds of Prey. Fact Sheet. Web. 06 August 2011. <http://birds.fws.gov/Raptor-Fact-Sheet.pdf>\r\n</ul>\r\n",
+      "habitatRequirements": "Burrowing Owls prefer habitats within deserts, grasslands, and shrub-steppe, and utilize well-drained, level to gently sloping areas characterized by sparse vegetation and bare ground such as moderately or heavily grazed pasture. They prefer short grass for nesting, but will forage over areas of tall vegetation (Dechant et al. 1999, revised 2002, p. 3). However, there is evidence that vegetation over 3.3 ft may be too tall for Burrowing Owls to locate prey. Types of foraging areas include cropland, pasture, prairie dog colonies, fallow fields, and sparsely vegetated areas (Dechant et al. 1999, revised 2002, p. 7). Burrowing Owls have been found in active prairie dog burrows, and are more likely to demonstrate increase survival and decreased predation at large, well-populated active prairie dog sites than smaller, inactive sites (Dechant et al. 1999, revised 2002, p. 5). Burrowing Owls also regularly utilize developed areas such as agricultural fields, golf courses, cemeteries, road allowances, airports, vacant urban lots, and fairgrounds (Poulin et al. 2011). ",
+      "id": 7
+    },
+    {
+      "commonName": "Wood stork",
+      "scientificName": {
+        "value": "Mycteria americana",
+        "url": "https://ecos.fws.gov/ecp/species/8477"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc1974.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc1974.jpg"
+      },
+      "speciesDescription": "Wood storks are large, long-legged wading birds, about 5O inches tall, with a wingspan of 60 to 65 inches. The plumage is white except for black primaries and secondaries and a short black tail. The head and neck are largely unfeathered and dark gray in color. The bill is black, thick at the base, and slightly decurved. Immature birds are dingy gray and have a yellowish bill. \n",
+      "habitatRequirements": "The southeast United States breeding population of the wood stork declined from an estimated 20,000 pairs in the 1930's to about 10,000 pairs by 1960, and to a low of approximately 5,000 pairs in the late 1970s.  Nesting primarily occurred in the Everglades.  The generally accepted explanation for the decline of the wood stork is the reduction in food base (primarly small fish) necessary to support breeding colonies.  This reduction is attributed to loss of wetland habitat as well as to changes in water hydroperiods from draining wetlands and changing water regimes by constructing levees, canals, and floodgates to alter water flow in south Florida.\n\nWood storks have a unique feeding technique and require higher prey concentrations than other wading birds.  Optimal water regimes for the wood stork involve periods of flooding, during which prey (fish) populations increase, alternating with dryer periods, during which receding water levels concentrate fish at higher densities coinciding with the stork's nesting season.  Loss of nesting habitat (primarily cypress swamps) may be affecting wood storks in central Florida, where nesting in non-native trees and in man-made impoundments has been occurring recently.  Less significant factors known to affect nesting success include prolonged drought and flooding, raccoon predation on nests, and human disturbance of rookeries.",
+      "id": 8
+    },
+    {
+      "commonName": "Comanche-peak prairie-clover",
+      "scientificName": {
+        "value": "Dalea reverchonii",
+        "url": "https://ecos.fws.gov/ecp/species/5199"
+      },
+      "speciesGroup": "Flowering Plants",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4781.JPG",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4781.JPG"
+      },
+      "speciesDescription": "The Comanche Peak prairie clover is a globally rare member of the legume family, restricted to limestone glades, and is endemic to just a few counties in north central Texas (Bosque, Erath, Hood, Johnson, Parker, Somervell, Tarrant, and Wise counties). Comanche Peak prairie clover is known for single populations in Bosque, Hood, Johnson, and Somervelle Counties and two populations in Erath County. The majority of the populations of Comanche Peak prairie clover center on Weatherford, Texas in Parker County and a small area southeast of Decatur, Texas in Wise county. There are many threats to this plant which include urban sprawl, land fragmentation, mining, and herbivory.",
+      "habitatRequirements": "Shallow calcareous clay to sandy clay soils over limestone in grasslands or openings in post oak woodlands, often among sparse vegetation in barren exposed sites.",
+      "id": 9
+    },
+    {
+      "commonName": "Western burrowing owl",
+      "scientificName": {
+        "value": "Athene cunicularia ssp. hypugaea",
+        "url": "https://ecos.fws.gov/ecp/species/3855"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4119.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4119.jpg"
+      },
+      "speciesDescription": "The Burrowing Owl is small ground-dwelling diurnal owl with several distinctive features including its bright yellow eyes, long legs and characteristic bobbing behavior when disturbed. Burrowing Owls range in length from 19-25 cm and have brown and buffy-white spotted feathers with a buffy-white eyebrow. Males are slightly larger than females. Juveniles are distinguishable from adults by their solid buff colored breast and wings (Poulin et al. 2011).\r\n<p><b>Citations:</b>\r\n<ul>\r\n<li>Dechant, J. A., M. L. Sondreal, D. H. Johnson, L. D. Igl, C. M. Goldade, P. A. Rabie, and B. R. Euliss. 1999 (revised 2002). Effects of management practices on grassland birds: Burrowing owl. Northern Prairie Wildlife Research Center, Jamestown, ND. 33 pages.\r\n<li>Martin, D.J. 1973. Selected Aspects of Burrowing owl Ecology and Behavior. The Condor 75(4): 446-456.\r\n<li>Poulin, Ray, L. Danielle Todd, E. A. Haug, B. A. Millsap and M. S. Martell. 2011. Burrowing Owl (Athene cunicularia), The Birds of North America Online (A. Poole, Ed.). Ithaca: Cornell Lab of Ornithology; Retrieved from the Birds of North America Online: <a href=\"http://bna.birds.cornell.edu/bna/species/061\">http://bna.birds.cornell.edu/bna/species/061</a>\r\n<li>Smallwood, S.K. and C. Thelander. 2008. Bird Mortality in the Altamont Pass Wind Resource Area. The Journal of Wildlife Management 72(1): 215-223.\r\n<li>U.S. Fish and Wildlife Service (USFWS ). 2002. Raptors: Diurnal and Nocturnal Birds of Prey. Fact Sheet. Web. 06 August 2011. <http://birds.fws.gov/Raptor-Fact-Sheet.pdf>\r\n</ul>\r\n",
+      "habitatRequirements": "Burrowing Owls prefer habitats within deserts, grasslands, and shrub-steppe, and utilize well-drained, level to gently sloping areas characterized by sparse vegetation and bare ground such as moderately or heavily grazed pasture. They prefer short grass for nesting, but will forage over areas of tall vegetation (Dechant et al. 1999, revised 2002, p. 3). However, there is evidence that vegetation over 3.3 ft may be too tall for Burrowing Owls to locate prey. Types of foraging areas include cropland, pasture, prairie dog colonies, fallow fields, and sparsely vegetated areas (Dechant et al. 1999, revised 2002, p. 7). Burrowing Owls have been found in active prairie dog burrows, and are more likely to demonstrate increase survival and decreased predation at large, well-populated active prairie dog sites than smaller, inactive sites (Dechant et al. 1999, revised 2002, p. 5). Burrowing Owls also regularly utilize developed areas such as agricultural fields, golf courses, cemeteries, road allowances, airports, vacant urban lots, and fairgrounds (Poulin et al. 2011). ",
+      "id": 10
+    },
+    {
+      "commonName": "Comanche-peak prairie-clover",
+      "scientificName": {
+        "value": "Dalea reverchonii",
+        "url": "https://ecos.fws.gov/ecp/species/5199"
+      },
+      "speciesGroup": "Flowering Plants",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4781.JPG",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4781.JPG"
+      },
+      "speciesDescription": "The Comanche Peak prairie clover is a globally rare member of the legume family, restricted to limestone glades, and is endemic to just a few counties in north central Texas (Bosque, Erath, Hood, Johnson, Parker, Somervell, Tarrant, and Wise counties). Comanche Peak prairie clover is known for single populations in Bosque, Hood, Johnson, and Somervelle Counties and two populations in Erath County. The majority of the populations of Comanche Peak prairie clover center on Weatherford, Texas in Parker County and a small area southeast of Decatur, Texas in Wise county. There are many threats to this plant which include urban sprawl, land fragmentation, mining, and herbivory.",
+      "habitatRequirements": "Shallow calcareous clay to sandy clay soils over limestone in grasslands or openings in post oak woodlands, often among sparse vegetation in barren exposed sites.",
+      "id": 11
+    },
+    {
+      "commonName": "Wood stork",
+      "scientificName": {
+        "value": "Mycteria americana",
+        "url": "https://ecos.fws.gov/ecp/species/8477"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc1974.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc1974.jpg"
+      },
+      "speciesDescription": "Wood storks are large, long-legged wading birds, about 5O inches tall, with a wingspan of 60 to 65 inches. The plumage is white except for black primaries and secondaries and a short black tail. The head and neck are largely unfeathered and dark gray in color. The bill is black, thick at the base, and slightly decurved. Immature birds are dingy gray and have a yellowish bill. \n",
+      "habitatRequirements": "The southeast United States breeding population of the wood stork declined from an estimated 20,000 pairs in the 1930's to about 10,000 pairs by 1960, and to a low of approximately 5,000 pairs in the late 1970s.  Nesting primarily occurred in the Everglades.  The generally accepted explanation for the decline of the wood stork is the reduction in food base (primarly small fish) necessary to support breeding colonies.  This reduction is attributed to loss of wetland habitat as well as to changes in water hydroperiods from draining wetlands and changing water regimes by constructing levees, canals, and floodgates to alter water flow in south Florida.\n\nWood storks have a unique feeding technique and require higher prey concentrations than other wading birds.  Optimal water regimes for the wood stork involve periods of flooding, during which prey (fish) populations increase, alternating with dryer periods, during which receding water levels concentrate fish at higher densities coinciding with the stork's nesting season.  Loss of nesting habitat (primarily cypress swamps) may be affecting wood storks in central Florida, where nesting in non-native trees and in man-made impoundments has been occurring recently.  Less significant factors known to affect nesting success include prolonged drought and flooding, raccoon predation on nests, and human disturbance of rookeries.",
+      "id": 12
+    },
+    {
+      "commonName": "Florida bonneted bat",
+      "scientificName": {
+        "value": "Eumops floridanus",
+        "url": "https://ecos.fws.gov/ecp/species/8630"
+      },
+      "speciesGroup": "Mammals",
+      "imageUrl": {
+        "value": "/docs/species_images/doc5033.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc5033.jpg"
+      },
+      "speciesDescription": "The Florida bonneted bat is a member of the Molossidae (free-tailed bats) family within the order Chiroptera. The species is the largest bat in Florida(Owre 1978; Belwood 1992). Males and females are not significantly different in size, and there is no pattern of size-related geographic variation in this species(Timm and Genoways 2004). Members of the genus Eumops have large, rounded pinnae (ears), arising from a single point or joined medially on the forehead (Best et al. 1997). Ears are joined at the midline of the head. This feature, along with its large size, distinguishes the Florida bonneted bat from the smaller Brazilian (=Mexican)free-tailed bat (Tadarida brasiliensis). Eumops are among the narrowest of all molossids (Freeman 1981, as cited in Best et al. 1997) and are well-adapted for rapid, prolonged flight (Vaughan 1959 as cited in Best et al. 1997). This wing structure is conducive to high-speed flight in open areas (Findley et al. 1972 as cited in Best et al. 1997). The Florida bonneted batÃÂ¢Ã¯Â¿Â½Ã¯Â¿Â½s fur is short and glossy, with hairs sharply bicolored with a white base (Belwood 1992; Timm and Genoways 2004). Like other molossids, color is highly variable, varying from black to brown to brownish-gray or cinnamon brown with ventral pelage (fur) paler than dorsal (Owre 1978; Belwood 1992; Timm and Genoways 2004).",
+      "habitatRequirements": "ROOSTING HABITAT: Includes forest and other areas with tall, mature trees or other areas with suitable roost structures.  Forest is defined as all types including:  pine flatwoods, scrubby flatwoods, pine rocklands, royal palm hammocks, mixed or hardwood hammocks, cypress, sand pine scrub, or other forest types.  Artificial roosting structure includes buildings, bridges, and bat houses.  More specifically, this includes habitat for roosting and rearing of offspring.  Such habitat provides structural features for rest, digestion of food, social interaction, mating, rearing of young, protection from sunlight and adverse weather, and cover to reduce predation risks for adults and young.  In general, roosting habitat is characterized by:  tall mature live or dead trees, tree snags, and trees with cavities, hollows, deformities, decay, crevices, or loose bark.  Structural characteristics are of primary importance.  \r\n\r\nFORAGING HABITAT - Sources of drinking water and prey and relatively open (i.e., uncluttered) areas to find and catch prey.  This includes:  open fresh water, permanent or seasonal freshwater wetlands, wetland and upland forests, and wetland and upland shrub.  In urban and residential areas, drinking water, prey base, and suitable foraging conditions (i.e., open habitat structure) can be found in relatively small patches of natural or semi-natural habitat. ",
+      "id": 13
+    },
+    {
+      "commonName": "Pacific Hawaiian damselfly",
+      "scientificName": {
+        "value": "Megalagrion pacificum",
+        "url": "https://ecos.fws.gov/ecp/species/6119"
+      },
+      "speciesGroup": "Insects",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4910.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4910.jpg"
+      },
+      "speciesDescription": "Pacific Hawaiian damselflies are now believed to be limited to the islands of Maui and Molokai and one population found in 1998 on Hawaii island. The Pacific Hawaiian damselfly was first described by McLachlan (1883, p. 234), based on specimens collected by R.C.L. Perkins from streams on the islands of Lanai and Maui. This damselfly is a relatively small, dark colored species, with adults measuring 1.3 to 1.4 in (34 to 37 mm) in length and having a wingspan of 1.3 to 1.6 in (33 to 42 mm). Both adult males and females are mostly black in color. Males exhibit brick-red striping and patterns, while females exhibit light-green striping and patterns. The only immature individuals of this species that have been collected were early instar (an intermoult stage of development) individuals, and they exhibit flattened, leaf-like gills (Polhemus and Asquith 1996, p. 83). Pacific Hawaiian damselflies are distinguished from other Hawaiian damselflies by the long lower abdominal appendages of the male (USFWS 2010). Pacific damselflies do not disperse over long distances compared to other Hawaiian damselfies (Jordan et al 2007, USFWS 2011).",
+      "habitatRequirements": "Habitat requirements consists of lentic habitats that may include marshes, seepage fed pools, large ponds, and quiet pools in gulches, usually in areas with dense surrounding vegetation below 2,000 feet (600 meters) on all Hawaiian islands accept Kahoolawe and Niihau (Polhemus and Asquith 1996, USFWS 2010, 2011). these lentic habitats need to be free of nonnative fish that prey on the naiad.",
+      "id": 14
+    },
+    {
+      "commonName": "Eastern prairie fringed orchid",
+      "scientificName": {
+        "value": "Platanthera leucophaea",
+        "url": "https://ecos.fws.gov/ecp/species/601"
+      },
+      "speciesGroup": "Flowering Plants",
+      "imageUrl": {
+        "value": "/docs/species_images/doc5080.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc5080.jpg"
+      },
+      "speciesDescription": "This plant is 8 to 40 inches tall and has an upright leafy stem with a flower cluster called an inflorescence. The 3 to 8 inch lance-shaped leaves sheath the stem. Each plant has one single flower spike composed of 5 to 40 white flowers. Each flower has a three-part fringed lip less than 1 inch long and a nectar spur (tube-like structure) which is about 1 to 2 inches long.The eastern prairie fringed orchid occurs in a wide variety of habitats, from mesic prairie to wetlands such as sedge meadows, marsh edges, even bogs. It requires full sun for optimum growth and flowering and a grassy habitat with little or no woody encroachment. A symbiotic relationship between the seed and soil fungi, called mycorrhizae, is necessary for seedlings to become established. This fungi helps the seeds assimilate nutrients in the soil.",
+      "habitatRequirements": "The eastern prairie fringed orchid occurs in a wide variety of habitats, from mesic prairie to wetlands such as sedge meadows, marsh edges, even bogs. It requires full sun for optimum growth and flowering and a grassy habitat with little or no woody encroachment. A symbiotic relationship between the seed and soil fungi, called mycorrhizae, is necessary for seedlings to become established. This fungi helps the seeds assimilate nutrients in the soil.",
+      "id": 15
+    },
+    {
+      "commonName": "Akekee",
+      "scientificName": {
+        "value": "Loxops caeruleirostris",
+        "url": "https://ecos.fws.gov/ecp/species/153"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4660.png",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4660.png"
+      },
+      "speciesDescription": "The 'Akeke'e is a small Hawaiian honeycreeper. Both sexes are greenish above and have a yellow underside, triangular black face mask, as well as yellow cap and rump. The tail is long and notched, and the bill is conical with a light bluish gray color. Their legs and eyes appear black in the field, and the tip of the lower mandible is curved to one side.",
+      "habitatRequirements": "The 'Akeke'e inhabits Lowland Mesic and Wet Forests. The highest densities of these species are found in 'o hi'a forest in Alaka'i \"Swamp.\" This is the wettest location in U.S., where average annual rainfall approaches 1,500 cm.  The most common trees in these forests are 'o hi'a (Metrosideros polymorpha), koa (Acacia koa), 'o lapa (Cheirodendron trigynum), and lapalapa (C. platyphyllum). ",
+      "id": 16
+    },
+    {
+      "commonName": "Island Scrub-Jay",
+      "scientificName": {
+        "value": "Aphelocoma insularis",
+        "url": "https://ecos.fws.gov/ecp/species/9648"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4705.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4705.jpg"
+      },
+      "speciesDescription": "The Island Scrub-Jay is a large, crestless, and long-tailed blue-and-grayish-white jay. There are no other jays or similar species in its geographic range. Its crown, nape, sides of breast, wings, upper tail-coverts, and tail are a uniform dull ultramarine blue. The auricular and malar regions are blackish with variably extensive dark-blue tinge below and behind eye. It is distinguished from the Western Scrub-Jays of nearby California mainland by larger size, disproportionately long bill, broad skull, and long tarsi. \r\n\r\n<p><b>References cited in Species Profile </b> \r\n<ul>\r\n<li>Atwood, J. L. 1978. Breeding biology of the Santa Cruz Island Scrub Jay, Aphelocoma coerulescens insularis. Master's Thesis. California State Univ. Long Beach.\r\n<li>Beck, R. H. 1899. Nesting of the Santa Cruz Jay. Condor 1:6.\r\n<li>Bent, A. C. 1946. Life histories of North American jays, crows, and titmice. U.S. Natl. Mus. Bull. 191\r\n<li>Curry, Robert L. and Kathleen Semple Delaney. 2002. Island Scrub-Jay (Aphelocoma insularis), The Birds of North America Online (A. Poole, Ed.). Ithaca: Cornell Lab of Ornithology; Retrieved from the Birds of North America Online.\r\n<li>Curry, R. L., A. T. Peterson, and T. A. Langen. 2002. Western Scrub-Jay (Aphelocoma californica). in The birds of North America, no. 712. (Poole, A. and F. Gill, Eds.) The Birds of North America, Inc. Philadelphia, PA.\r\n<li>Dawson, W. L. 1920. The case of the Santa Cruz Island Jay, Aphelocoma insularis Hensh. J. Mus. Comp. Ool. 1:26-29.\r\n<li>Dawson, W. L. 1923. The birds of California. South Moulton, Los Angeles.\r\n<li>Isitt, J. J. 1989. Evolution of the Scrub Jay, Aphelocoma coerulescens in the western United States. Master's Thesis. California State Univ. Long Beach.\r\n<li>Junak, S., T. Ayers, R. Scott, D. Wilken, and D. Young. 1995. A flora of Santa Cruz Island. Santa Barbara Botanic Garden and California Native Plant Soc. Santa Barbara, CA.\r\n<li>Pitelka, F. A. 1951. Speciation and ecological distribution of American jays of the genus Aphelocoma. Univ. of California Publ. Zool. 50:195-464.\r\n<li>Sillett, T.S., R.B. Chandler, J.A. Royle, M. Kery, and S.A. Morrison. 2012. Hierarchal distance-sampling models to estimate population size and habitat abundance of an island endemic. Ecological Applications 22:1997-2006.\r\n<li>Van Vuren, D. and B. E. Coblentz. 1987. Some ecological effects of feral sheep on Santa Cruz Island, California, USA. Biol. Conserv. 41:253-268.",
+      "habitatRequirements": "The Island Scrub-Jay occupies territories in several habitat types on Santa Cruz Island. Its primary habitat comprises chaparral dominated by island scrub oak and oak woodlands. The nest is constructed by both sexes, and placed in a bush or tree where dense twigs and small branches provide support and concealment. The jays break twigs off branches rather than gleaning components from the ground. The nest is a large, bulky cup also comprised of rootlets and horse hair.",
+      "id": 17
+    },
+    {
+      "commonName": "Telephus spurge",
+      "scientificName": {
+        "value": "Euphorbia telephioides",
+        "url": "https://ecos.fws.gov/ecp/species/5499"
+      },
+      "speciesGroup": "Flowering Plants",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4485.bmp",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4485.bmp"
+      },
+      "speciesDescription": "The telephus spurge is a perennial herb with numerous erect stems that reach up to one foot in height. The stems and leaves are smooth and fleshy with a milky sap. Its leaves are 1-2 inches long, alternate, widest above the middle, and usually maroon with midribs and margins. Leaf stalks are absent. Flowers are reddish-green cyathia (cup-like structures) with a single female flower (an ovary less than 0.5 inch long) and several male flowers (one stamen each) on short stalks surrounded by 4-5 minute, petal-like glands. The fruit is a 3-lobed capsule.",
+      "habitatRequirements": "",
+      "id": 18
+    },
+    {
+      "commonName": "Queen Charlotte goshawk",
+      "scientificName": {
+        "value": "Accipiter gentilis laingi",
+        "url": "https://ecos.fws.gov/ecp/species/6751"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc1610.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc1610.jpg"
+      },
+      "speciesDescription": "The Queen Charlotte goshawk is a comparatively small, dark subspecies of northern goshawk (Accipiter gentilis) that lives in the temperate rainforest archipelagos of Southeast Alaska and British Columbia. Adults have blue-gray to nearly black backs and tails, and gray bellies and chests that are finely marked with dark gray bars and streaks. A bold white stripe above the eye accents the vivid orange to bright scarlet eye. Females are larger than males.",
+      "habitatRequirements": "",
+      "id": 19
+    },
+    {
+      "commonName": "San Marcos salamander",
+      "scientificName": {
+        "value": "Eurycea nana",
+        "url": "https://ecos.fws.gov/ecp/species/6374"
+      },
+      "speciesGroup": "Amphibians",
+      "imageUrl": {
+        "value": "/docs/species_images/doc5002.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc5002.jpg"
+      },
+      "speciesDescription": "The San Marcos salamander is endemic to the San Marcos Springs and nearby surface and subterranean aquatic habitats. This species is known primarily from rocky habitats and submerged aquatic vegetation in and near springs of Spring Lake, parts of Spring Lake Dam, and nearby parts of the upper San Marcos River. One individual has been captured from a nearby flowing artesian well. The San Marcos salamander is a small, slender salamander with moderately large eyes and well developed and highly pigmented gills. San Marcos salamander is strictly aquatic and a neotenic form meaning it retains its external gills (larval condition) throughout life.",
+      "habitatRequirements": "",
+      "id": 20
+    },
+    {
+      "commonName": "Colorado hookless Cactus",
+      "scientificName": {
+        "value": "Sclerocactus glaucus",
+        "url": "https://ecos.fws.gov/ecp/species/2280"
+      },
+      "speciesGroup": "Flowering Plants",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4187.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4187.jpg"
+      },
+      "speciesDescription": "The Colorado hookless cactus is a barrel shaped cactus that ranges from 1.2 to 4.8 inches (in.) (3 to 12 centimeters (cm)) tall, with exceptional plants up to 12 in. (30 cm) tall.  Stems range from 1.6 to 3.6 in. (4 to 9 cm) in diameter.  The stems have 8 to 15 (typically 12 or 13) ribs that extend from the ground to the tip of the plant.  Along the ribs are areoles (small, cushion-like areas) with hooked spines radiating out (Heil and Porter 2004).  There are two types of spines, radial and central, defined by the size and position on the plant (see Figure 1) (74 FR 47112, September 15, 2009).  The 2 to 12 radial spines are located around the margin of the areole, extending in a plane parallel to the body of the plant.  The radial spines are white or gray to light brown. They are up to 0.67 in. (17 millimeters (mm)) long, and less than 0.04 in. (1 mm) in diameter.  The one to five central spines (usually three) are 0.5 to 2.0 in. (12 to 50 mm) long, are generally longer than radial spines, and extend from the center of the areole.  The central spines include abaxial and lateral forms.  Abaxial spines are typically single, point toward the top of the plant, and are noticeably bent at the tip at an angle usually less than 90 degrees.  Lateral spines are usually present in pairs on either side of the abaxial spine, but are more or less straight and diverge from the abaxial spine at an acute angle (usually 20 to 50 degrees).The flowers are usually funnel-shaped, but sometimes bell-shaped.  They usually have pink to violet tepals (petal-like flower parts not differentiated into petals and sepals) with yellow stamens (the male reproductive organ of the flower), and are 1.2 to 2.4 in. (3 to 6 cm) long and 1.2 to 2 in. (3 to 5 cm) in diameter.  The fruit is short, barrel-shaped 0.31 to 0.47 in. (8 to 12 mm) wide, and 0.35 to 1.2 in. (9 to 30 mm) long.",
+      "habitatRequirements": "Populations of Colorado hookless cactus occur primarily on alluvial benches (soils deposited by water) along the Colorado and Gunnison Rivers and their tributaries. Colorado hookless cactus generally occurs on gravelly or rocky surfaces on river terrace deposits and lower mesa slopes.  Exposures vary, but Colorado hookless cactus is more abundant on south-facing slopes (Colorado Natural Heritage Program. Soils are usually coarse, gravelly river alluvium above the river flood plains, usually consisting of Mancos shale with volcanic cobbles and pebbles on the surface.  Elevations range from 3,900 to 6,000 feet (ft) (1,400 to 2,000 meters (m)) (Heil and Porter 2004). Associated desert shrubland vegetation includes shadscale (Atriplex confertifolia), galleta grass (Pleuraphis jamesii), black-sage (Artemisia nova), and Indian rice grass (Achnatherum hymenoides).  Populations also exist in big sagebrush (Artemisia tridentata) dominated sites and in the transition zone from sagebrush to pinyon-juniper (Pinus edulis and Juniperus osteosperma) communities. ",
+      "id": 21
+    },
+    {
+      "commonName": "Mariana fruit Bat (=Mariana flying fox)",
+      "scientificName": {
+        "value": "Pteropus mariannus mariannus",
+        "url": "https://ecos.fws.gov/ecp/species/2415"
+      },
+      "speciesGroup": "Mammals",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4931.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4931.jpg"
+      },
+      "speciesDescription": "The Mariana fruit bat is a medium-sized fruit bat in the family Pteropididae that weighs 0.66 to 1.15 pounds (330 to 577 grams) and has a forearm length ranging from 5.3 to 6.1 in (13.4 to 15.6 cm); males are slightly larger than females. The underside (abdomen) is colored black to brown, with gray hair interspersed, creating a grizzled appearance. The shoulders (mantle) and sides of the neck are usually bright golden brown, but may be paler in some individuals. The head varies from brown to dark brown. The well-formed and rounded ears and large eyes give the face a canine appearance; members of the family Pteropodidae often are referred to as flying foxes.",
+      "habitatRequirements": "This  species  typically roosts diurnally in colonies in undisturbed native forests and forages widely at night on nectar, fruit, and leaves of at least 22 plant species (Wiles 1983). During the day, Mariana fruit bats roost in native and non-native trees alone or in groups or colonies of a few to over 800 animals (Wiles 1987, Pierson and Rainey 1992, Worthington and Taisacan 1995). Roosting bats sleep during much of the day but also perform other activities, such as grooming, breeding, and defending roosting territories within the colony (USFWS 1990a). Several hours after sunset, bats depart their roost sites to forage for fruit and other native and non-native plant materials such as leaves and nectar (USFWS 1990a). Little is known about their nightly movements, but fruit bats have been observed foraging as far as 12 km (7 mi) from known roosting sites on Guam (Wiles et al. 1995). ",
+      "id": 22
+    },
+    {
+      "commonName": "Florida bonneted bat",
+      "scientificName": {
+        "value": "Eumops floridanus",
+        "url": "https://ecos.fws.gov/ecp/species/8630"
+      },
+      "speciesGroup": "Mammals",
+      "imageUrl": {
+        "value": "/docs/species_images/doc5033.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc5033.jpg"
+      },
+      "speciesDescription": "The Florida bonneted bat is a member of the Molossidae (free-tailed bats) family within the order Chiroptera. The species is the largest bat in Florida(Owre 1978; Belwood 1992). Males and females are not significantly different in size, and there is no pattern of size-related geographic variation in this species(Timm and Genoways 2004). Members of the genus Eumops have large, rounded pinnae (ears), arising from a single point or joined medially on the forehead (Best et al. 1997). Ears are joined at the midline of the head. This feature, along with its large size, distinguishes the Florida bonneted bat from the smaller Brazilian (=Mexican)free-tailed bat (Tadarida brasiliensis). Eumops are among the narrowest of all molossids (Freeman 1981, as cited in Best et al. 1997) and are well-adapted for rapid, prolonged flight (Vaughan 1959 as cited in Best et al. 1997). This wing structure is conducive to high-speed flight in open areas (Findley et al. 1972 as cited in Best et al. 1997). The Florida bonneted batÃÂ¢Ã¯Â¿Â½Ã¯Â¿Â½s fur is short and glossy, with hairs sharply bicolored with a white base (Belwood 1992; Timm and Genoways 2004). Like other molossids, color is highly variable, varying from black to brown to brownish-gray or cinnamon brown with ventral pelage (fur) paler than dorsal (Owre 1978; Belwood 1992; Timm and Genoways 2004).",
+      "habitatRequirements": "ROOSTING HABITAT: Includes forest and other areas with tall, mature trees or other areas with suitable roost structures.  Forest is defined as all types including:  pine flatwoods, scrubby flatwoods, pine rocklands, royal palm hammocks, mixed or hardwood hammocks, cypress, sand pine scrub, or other forest types.  Artificial roosting structure includes buildings, bridges, and bat houses.  More specifically, this includes habitat for roosting and rearing of offspring.  Such habitat provides structural features for rest, digestion of food, social interaction, mating, rearing of young, protection from sunlight and adverse weather, and cover to reduce predation risks for adults and young.  In general, roosting habitat is characterized by:  tall mature live or dead trees, tree snags, and trees with cavities, hollows, deformities, decay, crevices, or loose bark.  Structural characteristics are of primary importance.  \r\n\r\nFORAGING HABITAT - Sources of drinking water and prey and relatively open (i.e., uncluttered) areas to find and catch prey.  This includes:  open fresh water, permanent or seasonal freshwater wetlands, wetland and upland forests, and wetland and upland shrub.  In urban and residential areas, drinking water, prey base, and suitable foraging conditions (i.e., open habitat structure) can be found in relatively small patches of natural or semi-natural habitat. ",
+      "id": 23
+    },
+    {
+      "commonName": "Eastern prairie fringed orchid",
+      "scientificName": {
+        "value": "Platanthera leucophaea",
+        "url": "https://ecos.fws.gov/ecp/species/601"
+      },
+      "speciesGroup": "Flowering Plants",
+      "imageUrl": {
+        "value": "/docs/species_images/doc5080.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc5080.jpg"
+      },
+      "speciesDescription": "This plant is 8 to 40 inches tall and has an upright leafy stem with a flower cluster called an inflorescence. The 3 to 8 inch lance-shaped leaves sheath the stem. Each plant has one single flower spike composed of 5 to 40 white flowers. Each flower has a three-part fringed lip less than 1 inch long and a nectar spur (tube-like structure) which is about 1 to 2 inches long.The eastern prairie fringed orchid occurs in a wide variety of habitats, from mesic prairie to wetlands such as sedge meadows, marsh edges, even bogs. It requires full sun for optimum growth and flowering and a grassy habitat with little or no woody encroachment. A symbiotic relationship between the seed and soil fungi, called mycorrhizae, is necessary for seedlings to become established. This fungi helps the seeds assimilate nutrients in the soil.",
+      "habitatRequirements": "The eastern prairie fringed orchid occurs in a wide variety of habitats, from mesic prairie to wetlands such as sedge meadows, marsh edges, even bogs. It requires full sun for optimum growth and flowering and a grassy habitat with little or no woody encroachment. A symbiotic relationship between the seed and soil fungi, called mycorrhizae, is necessary for seedlings to become established. This fungi helps the seeds assimilate nutrients in the soil.",
+      "id": 24
+    },
+    {
+      "commonName": "Pacific Hawaiian damselfly",
+      "scientificName": {
+        "value": "Megalagrion pacificum",
+        "url": "https://ecos.fws.gov/ecp/species/6119"
+      },
+      "speciesGroup": "Insects",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4910.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4910.jpg"
+      },
+      "speciesDescription": "Pacific Hawaiian damselflies are now believed to be limited to the islands of Maui and Molokai and one population found in 1998 on Hawaii island. The Pacific Hawaiian damselfly was first described by McLachlan (1883, p. 234), based on specimens collected by R.C.L. Perkins from streams on the islands of Lanai and Maui. This damselfly is a relatively small, dark colored species, with adults measuring 1.3 to 1.4 in (34 to 37 mm) in length and having a wingspan of 1.3 to 1.6 in (33 to 42 mm). Both adult males and females are mostly black in color. Males exhibit brick-red striping and patterns, while females exhibit light-green striping and patterns. The only immature individuals of this species that have been collected were early instar (an intermoult stage of development) individuals, and they exhibit flattened, leaf-like gills (Polhemus and Asquith 1996, p. 83). Pacific Hawaiian damselflies are distinguished from other Hawaiian damselflies by the long lower abdominal appendages of the male (USFWS 2010). Pacific damselflies do not disperse over long distances compared to other Hawaiian damselfies (Jordan et al 2007, USFWS 2011).",
+      "habitatRequirements": "Habitat requirements consists of lentic habitats that may include marshes, seepage fed pools, large ponds, and quiet pools in gulches, usually in areas with dense surrounding vegetation below 2,000 feet (600 meters) on all Hawaiian islands accept Kahoolawe and Niihau (Polhemus and Asquith 1996, USFWS 2010, 2011). these lentic habitats need to be free of nonnative fish that prey on the naiad.",
+      "id": 25
+    },
+    {
+      "commonName": "Akekee",
+      "scientificName": {
+        "value": "Loxops caeruleirostris",
+        "url": "https://ecos.fws.gov/ecp/species/153"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4660.png",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4660.png"
+      },
+      "speciesDescription": "The 'Akeke'e is a small Hawaiian honeycreeper. Both sexes are greenish above and have a yellow underside, triangular black face mask, as well as yellow cap and rump. The tail is long and notched, and the bill is conical with a light bluish gray color. Their legs and eyes appear black in the field, and the tip of the lower mandible is curved to one side.",
+      "habitatRequirements": "The 'Akeke'e inhabits Lowland Mesic and Wet Forests. The highest densities of these species are found in 'o hi'a forest in Alaka'i \"Swamp.\" This is the wettest location in U.S., where average annual rainfall approaches 1,500 cm.  The most common trees in these forests are 'o hi'a (Metrosideros polymorpha), koa (Acacia koa), 'o lapa (Cheirodendron trigynum), and lapalapa (C. platyphyllum). ",
+      "id": 26
+    },
+    {
+      "commonName": "San Marcos salamander",
+      "scientificName": {
+        "value": "Eurycea nana",
+        "url": "https://ecos.fws.gov/ecp/species/6374"
+      },
+      "speciesGroup": "Amphibians",
+      "imageUrl": {
+        "value": "/docs/species_images/doc5002.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc5002.jpg"
+      },
+      "speciesDescription": "The San Marcos salamander is endemic to the San Marcos Springs and nearby surface and subterranean aquatic habitats. This species is known primarily from rocky habitats and submerged aquatic vegetation in and near springs of Spring Lake, parts of Spring Lake Dam, and nearby parts of the upper San Marcos River. One individual has been captured from a nearby flowing artesian well. The San Marcos salamander is a small, slender salamander with moderately large eyes and well developed and highly pigmented gills. San Marcos salamander is strictly aquatic and a neotenic form meaning it retains its external gills (larval condition) throughout life.",
+      "habitatRequirements": "",
+      "id": 27
+    },
+    {
+      "commonName": "Island Scrub-Jay",
+      "scientificName": {
+        "value": "Aphelocoma insularis",
+        "url": "https://ecos.fws.gov/ecp/species/9648"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4705.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4705.jpg"
+      },
+      "speciesDescription": "The Island Scrub-Jay is a large, crestless, and long-tailed blue-and-grayish-white jay. There are no other jays or similar species in its geographic range. Its crown, nape, sides of breast, wings, upper tail-coverts, and tail are a uniform dull ultramarine blue. The auricular and malar regions are blackish with variably extensive dark-blue tinge below and behind eye. It is distinguished from the Western Scrub-Jays of nearby California mainland by larger size, disproportionately long bill, broad skull, and long tarsi. \r\n\r\n<p><b>References cited in Species Profile </b> \r\n<ul>\r\n<li>Atwood, J. L. 1978. Breeding biology of the Santa Cruz Island Scrub Jay, Aphelocoma coerulescens insularis. Master's Thesis. California State Univ. Long Beach.\r\n<li>Beck, R. H. 1899. Nesting of the Santa Cruz Jay. Condor 1:6.\r\n<li>Bent, A. C. 1946. Life histories of North American jays, crows, and titmice. U.S. Natl. Mus. Bull. 191\r\n<li>Curry, Robert L. and Kathleen Semple Delaney. 2002. Island Scrub-Jay (Aphelocoma insularis), The Birds of North America Online (A. Poole, Ed.). Ithaca: Cornell Lab of Ornithology; Retrieved from the Birds of North America Online.\r\n<li>Curry, R. L., A. T. Peterson, and T. A. Langen. 2002. Western Scrub-Jay (Aphelocoma californica). in The birds of North America, no. 712. (Poole, A. and F. Gill, Eds.) The Birds of North America, Inc. Philadelphia, PA.\r\n<li>Dawson, W. L. 1920. The case of the Santa Cruz Island Jay, Aphelocoma insularis Hensh. J. Mus. Comp. Ool. 1:26-29.\r\n<li>Dawson, W. L. 1923. The birds of California. South Moulton, Los Angeles.\r\n<li>Isitt, J. J. 1989. Evolution of the Scrub Jay, Aphelocoma coerulescens in the western United States. Master's Thesis. California State Univ. Long Beach.\r\n<li>Junak, S., T. Ayers, R. Scott, D. Wilken, and D. Young. 1995. A flora of Santa Cruz Island. Santa Barbara Botanic Garden and California Native Plant Soc. Santa Barbara, CA.\r\n<li>Pitelka, F. A. 1951. Speciation and ecological distribution of American jays of the genus Aphelocoma. Univ. of California Publ. Zool. 50:195-464.\r\n<li>Sillett, T.S., R.B. Chandler, J.A. Royle, M. Kery, and S.A. Morrison. 2012. Hierarchal distance-sampling models to estimate population size and habitat abundance of an island endemic. Ecological Applications 22:1997-2006.\r\n<li>Van Vuren, D. and B. E. Coblentz. 1987. Some ecological effects of feral sheep on Santa Cruz Island, California, USA. Biol. Conserv. 41:253-268.",
+      "habitatRequirements": "The Island Scrub-Jay occupies territories in several habitat types on Santa Cruz Island. Its primary habitat comprises chaparral dominated by island scrub oak and oak woodlands. The nest is constructed by both sexes, and placed in a bush or tree where dense twigs and small branches provide support and concealment. The jays break twigs off branches rather than gleaning components from the ground. The nest is a large, bulky cup also comprised of rootlets and horse hair.",
+      "id": 28
+    },
+    {
+      "commonName": "Telephus spurge",
+      "scientificName": {
+        "value": "Euphorbia telephioides",
+        "url": "https://ecos.fws.gov/ecp/species/5499"
+      },
+      "speciesGroup": "Flowering Plants",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4485.bmp",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4485.bmp"
+      },
+      "speciesDescription": "The telephus spurge is a perennial herb with numerous erect stems that reach up to one foot in height. The stems and leaves are smooth and fleshy with a milky sap. Its leaves are 1-2 inches long, alternate, widest above the middle, and usually maroon with midribs and margins. Leaf stalks are absent. Flowers are reddish-green cyathia (cup-like structures) with a single female flower (an ovary less than 0.5 inch long) and several male flowers (one stamen each) on short stalks surrounded by 4-5 minute, petal-like glands. The fruit is a 3-lobed capsule.",
+      "habitatRequirements": "",
+      "id": 29
+    },
+    {
+      "commonName": "Colorado hookless Cactus",
+      "scientificName": {
+        "value": "Sclerocactus glaucus",
+        "url": "https://ecos.fws.gov/ecp/species/2280"
+      },
+      "speciesGroup": "Flowering Plants",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4187.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4187.jpg"
+      },
+      "speciesDescription": "The Colorado hookless cactus is a barrel shaped cactus that ranges from 1.2 to 4.8 inches (in.) (3 to 12 centimeters (cm)) tall, with exceptional plants up to 12 in. (30 cm) tall.  Stems range from 1.6 to 3.6 in. (4 to 9 cm) in diameter.  The stems have 8 to 15 (typically 12 or 13) ribs that extend from the ground to the tip of the plant.  Along the ribs are areoles (small, cushion-like areas) with hooked spines radiating out (Heil and Porter 2004).  There are two types of spines, radial and central, defined by the size and position on the plant (see Figure 1) (74 FR 47112, September 15, 2009).  The 2 to 12 radial spines are located around the margin of the areole, extending in a plane parallel to the body of the plant.  The radial spines are white or gray to light brown. They are up to 0.67 in. (17 millimeters (mm)) long, and less than 0.04 in. (1 mm) in diameter.  The one to five central spines (usually three) are 0.5 to 2.0 in. (12 to 50 mm) long, are generally longer than radial spines, and extend from the center of the areole.  The central spines include abaxial and lateral forms.  Abaxial spines are typically single, point toward the top of the plant, and are noticeably bent at the tip at an angle usually less than 90 degrees.  Lateral spines are usually present in pairs on either side of the abaxial spine, but are more or less straight and diverge from the abaxial spine at an acute angle (usually 20 to 50 degrees).The flowers are usually funnel-shaped, but sometimes bell-shaped.  They usually have pink to violet tepals (petal-like flower parts not differentiated into petals and sepals) with yellow stamens (the male reproductive organ of the flower), and are 1.2 to 2.4 in. (3 to 6 cm) long and 1.2 to 2 in. (3 to 5 cm) in diameter.  The fruit is short, barrel-shaped 0.31 to 0.47 in. (8 to 12 mm) wide, and 0.35 to 1.2 in. (9 to 30 mm) long.",
+      "habitatRequirements": "Populations of Colorado hookless cactus occur primarily on alluvial benches (soils deposited by water) along the Colorado and Gunnison Rivers and their tributaries. Colorado hookless cactus generally occurs on gravelly or rocky surfaces on river terrace deposits and lower mesa slopes.  Exposures vary, but Colorado hookless cactus is more abundant on south-facing slopes (Colorado Natural Heritage Program. Soils are usually coarse, gravelly river alluvium above the river flood plains, usually consisting of Mancos shale with volcanic cobbles and pebbles on the surface.  Elevations range from 3,900 to 6,000 feet (ft) (1,400 to 2,000 meters (m)) (Heil and Porter 2004). Associated desert shrubland vegetation includes shadscale (Atriplex confertifolia), galleta grass (Pleuraphis jamesii), black-sage (Artemisia nova), and Indian rice grass (Achnatherum hymenoides).  Populations also exist in big sagebrush (Artemisia tridentata) dominated sites and in the transition zone from sagebrush to pinyon-juniper (Pinus edulis and Juniperus osteosperma) communities. ",
+      "id": 30
+    },
+    {
+      "commonName": "Mariana fruit Bat (=Mariana flying fox)",
+      "scientificName": {
+        "value": "Pteropus mariannus mariannus",
+        "url": "https://ecos.fws.gov/ecp/species/2415"
+      },
+      "speciesGroup": "Mammals",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4931.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4931.jpg"
+      },
+      "speciesDescription": "The Mariana fruit bat is a medium-sized fruit bat in the family Pteropididae that weighs 0.66 to 1.15 pounds (330 to 577 grams) and has a forearm length ranging from 5.3 to 6.1 in (13.4 to 15.6 cm); males are slightly larger than females. The underside (abdomen) is colored black to brown, with gray hair interspersed, creating a grizzled appearance. The shoulders (mantle) and sides of the neck are usually bright golden brown, but may be paler in some individuals. The head varies from brown to dark brown. The well-formed and rounded ears and large eyes give the face a canine appearance; members of the family Pteropodidae often are referred to as flying foxes.",
+      "habitatRequirements": "This  species  typically roosts diurnally in colonies in undisturbed native forests and forages widely at night on nectar, fruit, and leaves of at least 22 plant species (Wiles 1983). During the day, Mariana fruit bats roost in native and non-native trees alone or in groups or colonies of a few to over 800 animals (Wiles 1987, Pierson and Rainey 1992, Worthington and Taisacan 1995). Roosting bats sleep during much of the day but also perform other activities, such as grooming, breeding, and defending roosting territories within the colony (USFWS 1990a). Several hours after sunset, bats depart their roost sites to forage for fruit and other native and non-native plant materials such as leaves and nectar (USFWS 1990a). Little is known about their nightly movements, but fruit bats have been observed foraging as far as 12 km (7 mi) from known roosting sites on Guam (Wiles et al. 1995). ",
+      "id": 31
+    },
+    {
+      "commonName": "Queen Charlotte goshawk",
+      "scientificName": {
+        "value": "Accipiter gentilis laingi",
+        "url": "https://ecos.fws.gov/ecp/species/6751"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc1610.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc1610.jpg"
+      },
+      "speciesDescription": "The Queen Charlotte goshawk is a comparatively small, dark subspecies of northern goshawk (Accipiter gentilis) that lives in the temperate rainforest archipelagos of Southeast Alaska and British Columbia. Adults have blue-gray to nearly black backs and tails, and gray bellies and chests that are finely marked with dark gray bars and streaks. A bold white stripe above the eye accents the vivid orange to bright scarlet eye. Females are larger than males.",
+      "habitatRequirements": "",
+      "id": 32
+    },
+    {
+      "commonName": "Florida bonneted bat",
+      "scientificName": {
+        "value": "Eumops floridanus",
+        "url": "https://ecos.fws.gov/ecp/species/8630"
+      },
+      "speciesGroup": "Mammals",
+      "imageUrl": {
+        "value": "/docs/species_images/doc5033.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc5033.jpg"
+      },
+      "speciesDescription": "The Florida bonneted bat is a member of the Molossidae (free-tailed bats) family within the order Chiroptera. The species is the largest bat in Florida(Owre 1978; Belwood 1992). Males and females are not significantly different in size, and there is no pattern of size-related geographic variation in this species(Timm and Genoways 2004). Members of the genus Eumops have large, rounded pinnae (ears), arising from a single point or joined medially on the forehead (Best et al. 1997). Ears are joined at the midline of the head. This feature, along with its large size, distinguishes the Florida bonneted bat from the smaller Brazilian (=Mexican)free-tailed bat (Tadarida brasiliensis). Eumops are among the narrowest of all molossids (Freeman 1981, as cited in Best et al. 1997) and are well-adapted for rapid, prolonged flight (Vaughan 1959 as cited in Best et al. 1997). This wing structure is conducive to high-speed flight in open areas (Findley et al. 1972 as cited in Best et al. 1997). The Florida bonneted batÃÂ¢Ã¯Â¿Â½Ã¯Â¿Â½s fur is short and glossy, with hairs sharply bicolored with a white base (Belwood 1992; Timm and Genoways 2004). Like other molossids, color is highly variable, varying from black to brown to brownish-gray or cinnamon brown with ventral pelage (fur) paler than dorsal (Owre 1978; Belwood 1992; Timm and Genoways 2004).",
+      "habitatRequirements": "ROOSTING HABITAT: Includes forest and other areas with tall, mature trees or other areas with suitable roost structures.  Forest is defined as all types including:  pine flatwoods, scrubby flatwoods, pine rocklands, royal palm hammocks, mixed or hardwood hammocks, cypress, sand pine scrub, or other forest types.  Artificial roosting structure includes buildings, bridges, and bat houses.  More specifically, this includes habitat for roosting and rearing of offspring.  Such habitat provides structural features for rest, digestion of food, social interaction, mating, rearing of young, protection from sunlight and adverse weather, and cover to reduce predation risks for adults and young.  In general, roosting habitat is characterized by:  tall mature live or dead trees, tree snags, and trees with cavities, hollows, deformities, decay, crevices, or loose bark.  Structural characteristics are of primary importance.  \r\n\r\nFORAGING HABITAT - Sources of drinking water and prey and relatively open (i.e., uncluttered) areas to find and catch prey.  This includes:  open fresh water, permanent or seasonal freshwater wetlands, wetland and upland forests, and wetland and upland shrub.  In urban and residential areas, drinking water, prey base, and suitable foraging conditions (i.e., open habitat structure) can be found in relatively small patches of natural or semi-natural habitat. ",
+      "id": 33
+    },
+    {
+      "commonName": "Eastern prairie fringed orchid",
+      "scientificName": {
+        "value": "Platanthera leucophaea",
+        "url": "https://ecos.fws.gov/ecp/species/601"
+      },
+      "speciesGroup": "Flowering Plants",
+      "imageUrl": {
+        "value": "/docs/species_images/doc5080.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc5080.jpg"
+      },
+      "speciesDescription": "This plant is 8 to 40 inches tall and has an upright leafy stem with a flower cluster called an inflorescence. The 3 to 8 inch lance-shaped leaves sheath the stem. Each plant has one single flower spike composed of 5 to 40 white flowers. Each flower has a three-part fringed lip less than 1 inch long and a nectar spur (tube-like structure) which is about 1 to 2 inches long.The eastern prairie fringed orchid occurs in a wide variety of habitats, from mesic prairie to wetlands such as sedge meadows, marsh edges, even bogs. It requires full sun for optimum growth and flowering and a grassy habitat with little or no woody encroachment. A symbiotic relationship between the seed and soil fungi, called mycorrhizae, is necessary for seedlings to become established. This fungi helps the seeds assimilate nutrients in the soil.",
+      "habitatRequirements": "The eastern prairie fringed orchid occurs in a wide variety of habitats, from mesic prairie to wetlands such as sedge meadows, marsh edges, even bogs. It requires full sun for optimum growth and flowering and a grassy habitat with little or no woody encroachment. A symbiotic relationship between the seed and soil fungi, called mycorrhizae, is necessary for seedlings to become established. This fungi helps the seeds assimilate nutrients in the soil.",
+      "id": 34
+    },
+    {
+      "commonName": "Akekee",
+      "scientificName": {
+        "value": "Loxops caeruleirostris",
+        "url": "https://ecos.fws.gov/ecp/species/153"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4660.png",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4660.png"
+      },
+      "speciesDescription": "The 'Akeke'e is a small Hawaiian honeycreeper. Both sexes are greenish above and have a yellow underside, triangular black face mask, as well as yellow cap and rump. The tail is long and notched, and the bill is conical with a light bluish gray color. Their legs and eyes appear black in the field, and the tip of the lower mandible is curved to one side.",
+      "habitatRequirements": "The 'Akeke'e inhabits Lowland Mesic and Wet Forests. The highest densities of these species are found in 'o hi'a forest in Alaka'i \"Swamp.\" This is the wettest location in U.S., where average annual rainfall approaches 1,500 cm.  The most common trees in these forests are 'o hi'a (Metrosideros polymorpha), koa (Acacia koa), 'o lapa (Cheirodendron trigynum), and lapalapa (C. platyphyllum). ",
+      "id": 35
+    },
+    {
+      "commonName": "Pacific Hawaiian damselfly",
+      "scientificName": {
+        "value": "Megalagrion pacificum",
+        "url": "https://ecos.fws.gov/ecp/species/6119"
+      },
+      "speciesGroup": "Insects",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4910.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4910.jpg"
+      },
+      "speciesDescription": "Pacific Hawaiian damselflies are now believed to be limited to the islands of Maui and Molokai and one population found in 1998 on Hawaii island. The Pacific Hawaiian damselfly was first described by McLachlan (1883, p. 234), based on specimens collected by R.C.L. Perkins from streams on the islands of Lanai and Maui. This damselfly is a relatively small, dark colored species, with adults measuring 1.3 to 1.4 in (34 to 37 mm) in length and having a wingspan of 1.3 to 1.6 in (33 to 42 mm). Both adult males and females are mostly black in color. Males exhibit brick-red striping and patterns, while females exhibit light-green striping and patterns. The only immature individuals of this species that have been collected were early instar (an intermoult stage of development) individuals, and they exhibit flattened, leaf-like gills (Polhemus and Asquith 1996, p. 83). Pacific Hawaiian damselflies are distinguished from other Hawaiian damselflies by the long lower abdominal appendages of the male (USFWS 2010). Pacific damselflies do not disperse over long distances compared to other Hawaiian damselfies (Jordan et al 2007, USFWS 2011).",
+      "habitatRequirements": "Habitat requirements consists of lentic habitats that may include marshes, seepage fed pools, large ponds, and quiet pools in gulches, usually in areas with dense surrounding vegetation below 2,000 feet (600 meters) on all Hawaiian islands accept Kahoolawe and Niihau (Polhemus and Asquith 1996, USFWS 2010, 2011). these lentic habitats need to be free of nonnative fish that prey on the naiad.",
+      "id": 36
+    },
+    {
+      "commonName": "Island Scrub-Jay",
+      "scientificName": {
+        "value": "Aphelocoma insularis",
+        "url": "https://ecos.fws.gov/ecp/species/9648"
+      },
+      "speciesGroup": "Birds",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4705.jpg",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4705.jpg"
+      },
+      "speciesDescription": "The Island Scrub-Jay is a large, crestless, and long-tailed blue-and-grayish-white jay. There are no other jays or similar species in its geographic range. Its crown, nape, sides of breast, wings, upper tail-coverts, and tail are a uniform dull ultramarine blue. The auricular and malar regions are blackish with variably extensive dark-blue tinge below and behind eye. It is distinguished from the Western Scrub-Jays of nearby California mainland by larger size, disproportionately long bill, broad skull, and long tarsi. \r\n\r\n<p><b>References cited in Species Profile </b> \r\n<ul>\r\n<li>Atwood, J. L. 1978. Breeding biology of the Santa Cruz Island Scrub Jay, Aphelocoma coerulescens insularis. Master's Thesis. California State Univ. Long Beach.\r\n<li>Beck, R. H. 1899. Nesting of the Santa Cruz Jay. Condor 1:6.\r\n<li>Bent, A. C. 1946. Life histories of North American jays, crows, and titmice. U.S. Natl. Mus. Bull. 191\r\n<li>Curry, Robert L. and Kathleen Semple Delaney. 2002. Island Scrub-Jay (Aphelocoma insularis), The Birds of North America Online (A. Poole, Ed.). Ithaca: Cornell Lab of Ornithology; Retrieved from the Birds of North America Online.\r\n<li>Curry, R. L., A. T. Peterson, and T. A. Langen. 2002. Western Scrub-Jay (Aphelocoma californica). in The birds of North America, no. 712. (Poole, A. and F. Gill, Eds.) The Birds of North America, Inc. Philadelphia, PA.\r\n<li>Dawson, W. L. 1920. The case of the Santa Cruz Island Jay, Aphelocoma insularis Hensh. J. Mus. Comp. Ool. 1:26-29.\r\n<li>Dawson, W. L. 1923. The birds of California. South Moulton, Los Angeles.\r\n<li>Isitt, J. J. 1989. Evolution of the Scrub Jay, Aphelocoma coerulescens in the western United States. Master's Thesis. California State Univ. Long Beach.\r\n<li>Junak, S., T. Ayers, R. Scott, D. Wilken, and D. Young. 1995. A flora of Santa Cruz Island. Santa Barbara Botanic Garden and California Native Plant Soc. Santa Barbara, CA.\r\n<li>Pitelka, F. A. 1951. Speciation and ecological distribution of American jays of the genus Aphelocoma. Univ. of California Publ. Zool. 50:195-464.\r\n<li>Sillett, T.S., R.B. Chandler, J.A. Royle, M. Kery, and S.A. Morrison. 2012. Hierarchal distance-sampling models to estimate population size and habitat abundance of an island endemic. Ecological Applications 22:1997-2006.\r\n<li>Van Vuren, D. and B. E. Coblentz. 1987. Some ecological effects of feral sheep on Santa Cruz Island, California, USA. Biol. Conserv. 41:253-268.",
+      "habitatRequirements": "The Island Scrub-Jay occupies territories in several habitat types on Santa Cruz Island. Its primary habitat comprises chaparral dominated by island scrub oak and oak woodlands. The nest is constructed by both sexes, and placed in a bush or tree where dense twigs and small branches provide support and concealment. The jays break twigs off branches rather than gleaning components from the ground. The nest is a large, bulky cup also comprised of rootlets and horse hair.",
+      "id": 37
+    },
+    {
+      "commonName": "Telephus spurge",
+      "scientificName": {
+        "value": "Euphorbia telephioides",
+        "url": "https://ecos.fws.gov/ecp/species/5499"
+      },
+      "speciesGroup": "Flowering Plants",
+      "imageUrl": {
+        "value": "/docs/species_images/doc4485.bmp",
+        "url": "https://ecos.fws.gov/docs/species_images/doc4485.bmp"
+      },
+      "speciesDescription": "The telephus spurge is a perennial herb with numerous erect stems that reach up to one foot in height. The stems and leaves are smooth and fleshy with a milky sap. Its leaves are 1-2 inches long, alternate, widest above the middle, and usually maroon with midribs and margins. Leaf stalks are absent. Flowers are reddish-green cyathia (cup-like structures) with a single female flower (an ovary less than 0.5 inch long) and several male flowers (one stamen each) on short stalks surrounded by 4-5 minute, petal-like glands. The fruit is a 3-lobed capsule.",
+      "habitatRequirements": "",
+      "id": 38
+    }
   ]
 }
