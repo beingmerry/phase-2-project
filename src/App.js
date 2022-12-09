@@ -30,6 +30,11 @@ const App = () => {
     setZoos(updatedZoos)
   }
 
+  const removeFromAnimals = animalToRemove => {
+    setAnimals([...animals].filter(animal => animal !== animalToRemove))
+    return
+  }
+
   useEffect(() => {
     fetch(
       `https://ecos.fws.gov/ecp/pullreports/catalog/species/report/species/export?format=json&distinct=true&columns=%2Fspecies%40cn%2Csn%2Cgn%3B%2Fspecies%2FspeciesImage%40image_url%3B%2Fspecies%2Flife_history%40desc%2Chabitat_reqs&sort=%2Fspecies%40cn%20asc%3B%2Fspecies%40sn%20asc&filter=%2Fspecies%2Flife_history%40desc%20!%3D%20'%22%22'&filter=%2Fspecies%2Flife_history%40habitat_reqs%20!%3D%20'%22%22'`
@@ -77,7 +82,12 @@ const App = () => {
           <Route
             path='animals'
             element={
-              <AnimalList animals={animals} zoos={zoos} updateZoosWithZoo={updateZoosWithZoo} />
+              <AnimalList
+                animals={animals}
+                zoos={zoos}
+                updateZoosWithZoo={updateZoosWithZoo}
+                removeFromAnimals={removeFromAnimals}
+              />
             }
           />
           <Route path='new-animal' element={<AnimalForm />} />

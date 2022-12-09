@@ -1,38 +1,14 @@
-import { useState } from 'react'
 import AnimalCard from './AnimalCard'
 
-const AnimalList = ({ animals, zoos, updateZoosWithZoo }) => {
-  // build unordered list of animals from animals array
-  const [currentAnimals, setCurrentAnimals] = useState(animals)
-  const removeFromCurrentAnimals = animalToRemove => {
-    setCurrentAnimals(
-      [...currentAnimals].filter(animal => animal !== animalToRemove)
-    )
-  }
-  // const handleRemoveFromZoo = animalToRemove => {
-  //   const newZooAnimals = [...zooAnimals].filter(
-  //     animal => animal !== animalToRemove
-  //   )
-  //   fetch(`http://localhost:4000/zoos/${zoo.id}`, {
-  //     method: 'PATCH',
-  //     headers: {
-  //       'Content-Type': 'application/json'
-  //     },
-  //     body: JSON.stringify({ ...zoo, animals: newZooAnimals })
-  //   })
-  //     .then(res => res.json())
-  //     .then(() => setZooAnimals(newZooAnimals))
-  //     .catch(err => console.error(err))
-  // }
+const AnimalList = ({ animals, zoos, updateZoosWithZoo, removeFromAnimals }) => {
 
-  const animalCards = currentAnimals.map((animal, index) => {
+  const animalCards = animals.map((animal, index) => {
     return (
       <AnimalCard
         key={`current-animal-${animal.id}`}
         animal={animal}
-        index={index}
         zoos={zoos}
-        removeFromCurrentAnimals={removeFromCurrentAnimals}
+        removeFromAnimals={removeFromAnimals}
         updateZoosWithZoo={updateZoosWithZoo}
       />
     )

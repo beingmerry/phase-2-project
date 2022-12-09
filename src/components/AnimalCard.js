@@ -1,8 +1,12 @@
 import { useState } from 'react'
 import { Button, Card, Form } from 'react-bootstrap'
 
-
-const AnimalCard = ({ animal, zoos, removeFromCurrentAnimals, setZoos }) => {
+const AnimalCard = ({
+  animal,
+  zoos,
+  removeFromAnimals,
+  updateZoosWithZoo
+}) => {
   const { image, name, details, id } = animal
   const zooAnimal = {
     name: animal.name,
@@ -12,9 +16,7 @@ const AnimalCard = ({ animal, zoos, removeFromCurrentAnimals, setZoos }) => {
   const zooOptions = zoos.map(zoo => {
     return (
       <>
-        <option id={zoo.id} value={zoo.id}>
-          {zoo.name}
-        </option>
+        <option key={zoo.id} value={zoo.id}>{zoo.name}</option>
       </>
     )
   })
@@ -22,8 +24,7 @@ const AnimalCard = ({ animal, zoos, removeFromCurrentAnimals, setZoos }) => {
   const [zooId, setZooId] = useState(-1)
   const handleZooId = event => setZooId(parseInt(event.target.value))
   const handleTransferToZoo = () => {
-    
-    const oldAnimals = [...zoos[zooId-1].animals] 
+    const oldAnimals = [...zoos[zooId - 1].animals]
     const newZooAnimals = [...oldAnimals, zooAnimal]
     debugger
     // ⚠️ [zooId - 1] for the array mgmt is hacky and needs fixed ToDo ⚠️ <------------->>
@@ -34,13 +35,12 @@ const AnimalCard = ({ animal, zoos, removeFromCurrentAnimals, setZoos }) => {
           headers: {
             'Content-Type': 'application/json'
           },
-          body: JSON.stringify({animals: newZooAnimals})
+          body: JSON.stringify({ animals: newZooAnimals })
         })
           .then(res => res.json())
-          .then(zoo => {
-            console.log(zoo)
-            removeFromCurrentAnimals(animal)
-            debugger
+          .then(updatedZoo => {
+            removeFromAnimals(animal)
+            updateZoosWithZoo(updatedZoo)
           })
           .catch(err => console.error(err))
       }
@@ -52,14 +52,13 @@ const AnimalCard = ({ animal, zoos, removeFromCurrentAnimals, setZoos }) => {
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>Details | {details}</Card.Text>
-        <Card.Text>Destination Zoo</Card.Text>
         <Form.Select
-          key={id}
+          key="Form"        
           defaultValue={'DEFAULT'}
           onChange={handleZooId}
           aria-label='Default select'
         >
-          <option value='DEFAULT' disabled>
+          <option key='DEFAULT' value='DEFAULT' disabled>
             Destination Zoo?
           </option>
           {zooOptions}
