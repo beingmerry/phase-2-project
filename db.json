@@ -38,7 +38,20 @@
         {
           "name": "Elephant",
           "details": "Big boi, long nose",
+<<<<<<< HEAD
+          "id": 3,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg",
+          "isInZoo": true
+        },
+        {
+          "id": 2,
+          "name": "Winnie",
+          "details": "the pooh bear",
+          "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Winniethepooh.png",
+          "isInZoo": true
+=======
           "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg"
+>>>>>>> 1669eef405fa97ac0300cb96edd8f3c633571090
         }
       ]
     }
@@ -60,7 +73,69 @@
       "id": 3,
       "name": "Elephant",
       "details": "Big boi, long nose",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg"
-    }
-  ]
+      "id": 3,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg",
+      "isInZoo": false
+    },
+  //   {
+  //     "name": "",
+  //     "details": "",
+  //     "image": "",
+  //     "id": 4
+  //   },
+  //   {
+  //     "name": "",
+  //     "details": "",
+  //     "image": "",
+  //     "id": 5
+  //   },
+  //   {
+  //     "name": "",
+  //     "details": "",
+  //     "image": "",
+  //     "id": 6
+  //   },
+  //   {
+  //     "name": "",
+  //     "details": "",
+  //     "image": "",
+  //     "id": 7
+  //   },
+  //   {
+  //     "name": "",
+  //     "details": "",
+  //     "image": "",
+  //     "id": 8
+  //   },
+  //   {
+  //     "name": "",
+  //     "details": "",
+  //     "image": "",
+  //     "id": 9
+  //   },
+  //   {
+  //     "name": "",
+  //     "details": "",
+  //     "image": "",
+  //     "id": 10
+  //   },
+  //   {
+  //     "name": "",
+  //     "details": "",
+  //     "image": "",
+  //     "id": 11
+  //   },
+  //   {
+  //     "name": "",
+  //     "details": "",
+  //     "image": "",
+  //     "id": 12
+  //   },
+  //   {
+  //     "name": "",
+  //     "details": "",
+  //     "image": "",
+  //     "id": 13
+  //   }
+  // ]
 }
