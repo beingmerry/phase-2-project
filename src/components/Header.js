@@ -38,6 +38,9 @@ const Header = () => {
                 ❓About Us
               </NavDropdown.Item>
             </NavDropdown>
+            <LinkContainer to='/links'>
+              <Nav.Link>Developers Social Links</Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Container>
