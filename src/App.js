@@ -5,6 +5,9 @@ import AnimalList from './components/AnimalList.js'
 import AnimalForm from './components/AnimalForm.js'
 import ZooList from './components/ZooList.js'
 import { useState, useEffect } from 'react'
+import DevSocial from './components/DevSocial.js'
+
+// import { Button } from 'react-bootstrap/Button'
 
 const App = () => {
   const [speciesList, setSpeciesList] = useState([])
@@ -64,20 +67,8 @@ const App = () => {
       .catch(err => console.error(err))
     // eslint-disable-next-line
   }, [])
-  // THIS useEffect runs once API data is available
-  // useEffect(() => {
-  //   fetch('http://localhost:4000/animals', {
-  //     method: 'POST',
-  //     headers: {
-  //       'Content-Type': 'application/json'
-  //     },
-  //     body: JSON.stringify(animals)
-  //   })
-  //     .then(res => res.json())
-  //     .then(data => console.log(data))
-  //     .catch(err => console.error(err))
-  //   // eslint-disable-next-line
-  // }, [loading])
+
+  // Build a zoo with animals in it
   return (
     <div className='App'>
       <Header />
@@ -107,13 +98,17 @@ const App = () => {
               />
             }
           />
+          <Route path='new-animal' element={<AnimalForm addToAnimals={addToAnimals} />} />
           <Route
-            path='new-animal'
-            element={<AnimalForm addToAnimals={addToAnimals} />}
-          />
+            path="links"
+            element={<DevSocial />} />
         </Routes>
+
       </div>
+      <div>
       {/* <Footer> */}
+
+      </div>
     </div>
   )
 }

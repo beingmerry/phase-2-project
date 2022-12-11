@@ -21,6 +21,7 @@ const AnimalList = ({
     })
   }
   // Need to limit the regen of randomAnimals and Posting to server
+  
   const camalize = str => {
     return str
       .toLowerCase()
